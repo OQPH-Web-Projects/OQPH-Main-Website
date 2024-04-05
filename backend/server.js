@@ -1,21 +1,21 @@
 require('dotenv').config();
 
 const express = require('express');
+const baseRoutes = require('./routes/base');
 
 //express app
 const app = express();
 
-//routes
-
+//middleware
+app.use(express.json());
 app.use((req, res, next) => {
     console.log(req.path, req.method);
     next();
 });
 
 
-app.get('/', (req, res) => {
-    res.json({mssg: 'Hello World'});
-});
+//routes
+app.use(baseRoutes);
 
 //listen for requests
 app.listen(process.env.PORT, () => {
