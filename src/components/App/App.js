@@ -1,11 +1,17 @@
 import './App.css';
 
+import Button from '../Button/Button';
+import Question from '../Question/Question';
+import Testimonial from '../Testimonial/Testimonial';
+
 function App() {
   return (
     <div>
-      <h1>Hello World</h1>
+      <Button text="Contact Us" />
+      <Question />
+      <Testimonial />
     </div>
   );
-}
+};
 
 export default App;
