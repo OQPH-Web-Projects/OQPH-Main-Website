@@ -6,11 +6,15 @@ router.get('/', (req, res) => {
     res.json({mssg: 'GET request to the homepage'});
 });
 
-router.post('/', (req, res) => {
-    res.json({mssg: 'POST request to the homepage'});
+router.get('/about-us', (req, res) => {
+    res.json({mssg: 'GET request to the about page'});
 });
 
-router.get('/about-us', (req, res) => {
+router.get('/events', (req, res) => {
+    res.json({mssg: 'GET request to the about page'});
+});
+
+router.get('/blogs', (req, res) => {
     res.json({mssg: 'GET request to the about page'});
 });
 
