@@ -1,14 +1,14 @@
 import React from 'react';
 
-function Testimonial({ message, name, position }) {
+function Testimonial({ data }) {
   return (
     <div>
-        { message }
+        { data.message }
         <div>
-            {/* <img /> */} 
+            <img src={ data.image } alt='Testimonial Profile' />
             <div>
-                <p>{ name }</p>
-                <p>{ position }</p>
+                <p>{ data.name }</p>
+                <p>{ data.position }</p>
             </div>
         </div>
     </div>

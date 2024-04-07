@@ -1,15 +1,13 @@
 import './App.css';
 
-import Button from '../Button/Button';
 import Question from '../Question/Question';
-import Testimonial from '../Testimonial/Testimonial';
+import Home from '../Home/Home';
 
 function App() {
   return (
     <div>
-      <Button text="Contact Us" />
+      <Home />
       <Question />
-      <Testimonial />
     </div>
   );
 };
