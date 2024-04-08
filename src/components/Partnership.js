@@ -1,4 +1,5 @@
 import React from "react";
+import Button from "./Button";
 
 function Partnership({action, info, text, style}){
     return(
@@ -6,7 +7,7 @@ function Partnership({action, info, text, style}){
             <img src='' alt="Partnership Icon" />
             <h3>{action}</h3>
             <p>{info}</p>
-            <button className={style}>{text}</button>
+            <Button text={ text } style={ style } />
         </div>
     );
 };
