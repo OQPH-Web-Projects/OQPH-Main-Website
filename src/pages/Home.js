@@ -7,6 +7,7 @@ import Partnership from '../components/Partnership';
 
 // Data files to display
 import { testimonialData } from '../data/testimonialData';
+import { partnershipData } from '../data/partnershipData';
 
 function Home() {
 	return (
@@ -125,7 +126,11 @@ function Home() {
 				<h2>Help us bring world-class programs nationwide:</h2>
 				{/* Partnership CTAs */}
 				<div>
-					<Partnership />
+					{
+						partnershipData.map((data, index) => 
+							<Partnership data={ data } key={ index } />
+						)
+					}
 				</div>
 			</div>
 
