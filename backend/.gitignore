@@ -1,0 +1,19 @@
+# Node modules
+node_modules/
+
+# Environment variables
+.env
+.env.*
+
+# Log files
+*.log
+npm-debug.log*
+
+# OS-specific files
+.DS_Store
+
+# Coverage reports
+coverage/
+
+# IDE-specific files
+.vscode/
