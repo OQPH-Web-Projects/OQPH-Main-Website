@@ -4,10 +4,12 @@ import Navigation from '../components/Navigation';
 import Button from '../components/Button';
 import Testimonial from '../components/Testimonial';
 import Partnership from '../components/Partnership';
+import Question from '../components/Question';
 
 // Data files to display
 import { testimonialData } from '../data/testimonialData';
 import { partnershipData } from '../data/partnershipData';
+import { questionData } from '../data/questionData';
 
 function Home() {
 	return (
@@ -136,10 +138,7 @@ function Home() {
 
 			{/* ==== FAQs ==== */}
 			<div>
-				<p>Frequently Asked Questions</p>
-				<h2>FAQs</h2>
-				<div>
-				</div>
+					<Question questions={questionData}/>
 			</div>
 
 		</div>
