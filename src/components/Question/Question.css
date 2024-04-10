@@ -1,0 +1,38 @@
+.Question-Container {
+    border-radius: 15px;
+    padding: 32px;
+    margin: 10px 0;
+    width: 1065px;
+    height: fit-content;
+    background: #13124f;
+    overflow: hidden;
+}
+
+.Question-Button {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    cursor: pointer;
+    background: transparent;
+    border: none;
+    text-align: left;
+}
+
+.Question-Text {
+    font-weight: 700;
+    font-size: 20px;
+    text-transform: capitalize;
+    color: #ffffff;
+}
+
+.Answer-Container {
+    padding-top: 20px;
+}
+
+.Answer-Text {
+    font-size: 16px;
+    line-height: 150%;
+    color: #ffffff;
+}
+

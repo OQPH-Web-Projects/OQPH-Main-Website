@@ -1,0 +1,19 @@
+.Button-Component {
+    border-radius: 50px;
+    padding: 16px 10px;
+    width: 200px;
+    height: 54px;
+    cursor: pointer;
+    background: linear-gradient(90deg, #4217ba 0%, #cba3ff 100%);
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 16px;
+    text-align: center;
+    color: #ffffff;
+}
+
+.Button-Component:hover,
+.Button-Component:focus {
+    border: 2px solid rgba(255, 255, 255, 0.7);
+    background: transparent;
+}

@@ -1,10 +1,10 @@
 import React from 'react';
 
 import Navigation from '../components/Navigation';
-import Button from '../components/Button';
-import Testimonial from '../components/Testimonial';
+import Button from '../components/Button/Button';
+import Testimonial from '../components/Testimonial/Testimonial';
 import Partnership from '../components/Partnership';
-import Question from '../components/Question';
+import Question from '../components/Question/Question';
 
 // Data files to display
 import { testimonialData } from '../data/testimonialData';
