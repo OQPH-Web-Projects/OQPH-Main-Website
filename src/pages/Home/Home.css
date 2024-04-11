@@ -1,0 +1,16 @@
+.Home-Container {
+    background: #010922;
+    color: #ffffff;
+}
+
+.caption {
+    font-weight: 700;
+    font-size: 16px;
+    letter-spacing: 0.28em;
+    text-transform: uppercase;
+    text-align: center;
+    background: linear-gradient(90deg, #ffd9d9 0%, #cba3ff 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}

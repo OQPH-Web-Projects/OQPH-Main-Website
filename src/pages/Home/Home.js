@@ -1,17 +1,20 @@
 import React from 'react';
 
-import Navigation from '../components/Navigation';
-import Button from '../components/Button';
-import Testimonial from '../components/Testimonial';
-import Partnership from '../components/Partnership';
+import Navigation from '../../components/Navigation';
+import Button from '../../components/Button/Button';
+import Testimonial from '../../components/Testimonial/Testimonial';
+import Partnership from '../../components/Partnership';
+import Question from '../../components/Question/Question';
+import './Home.css'
 
 // Data files to display
-import { testimonialData } from '../data/testimonialData';
-import { partnershipData } from '../data/partnershipData';
+import { testimonialData } from '../../data/testimonialData';
+import { partnershipData } from '../../data/partnershipData';
+import { questionData } from '../../data/questionData';
 
 function Home() {
 	return (
-		<div>
+		<div className='Home-Container'>
 			<Navigation />
 
 			{/* ==== Hero Section ==== */}
@@ -41,7 +44,7 @@ function Home() {
 				{/* 2-Column Section */}
 				<div>
 					<div>
-						<p>Testimonials</p>
+						<p className='caption'>Testimonials</p>
 						<h2>Lorem Ipsum Dolor Sit</h2>
 						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod</p>
 					</div>
@@ -122,7 +125,7 @@ function Home() {
 
 			{/* ==== Collaboration Section ==== */}
 			<div>
-				<p>Collaborations</p>
+				<p className='caption'>Collaborations</p>
 				<h2>Help us bring world-class programs nationwide:</h2>
 				{/* Partnership CTAs */}
 				<div>
@@ -136,10 +139,7 @@ function Home() {
 
 			{/* ==== FAQs ==== */}
 			<div>
-				<p>Frequently Asked Questions</p>
-				<h2>FAQs</h2>
-				<div>
-				</div>
+					<Question questions={questionData}/>
 			</div>
 
 		</div>
