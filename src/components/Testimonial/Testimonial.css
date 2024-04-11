@@ -1,0 +1,30 @@
+.Testimonial-Container {
+    border-radius: 20px;
+    padding: 32px;
+    width: 309px;
+    height: 322px;
+    background: #13124f;
+    font-family: "Nunito Sans", sans-serif;;
+    font-size: 16px;
+    line-height: 150%;
+    text-align: justify;
+    color: #ffffff;
+
+}
+
+.Profile-Container {
+    display: flex;
+    text-align: left;
+}
+
+.Profile-Name {
+    font-family:  "Lexend", sans-serif;;
+    font-weight: 700;
+    font-size: 20px;
+    text-transform: capitalize;
+    text-align: justify;
+}
+
+.Profile-Position {
+    font-size: 16px;
+}
