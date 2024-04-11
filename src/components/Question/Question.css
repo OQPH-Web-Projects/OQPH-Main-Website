@@ -26,11 +26,22 @@
     color: #ffffff;
 }
 
+.Wrapper {
+    display: grid;
+    grid-template-rows: 0fr;
+    transition: grid-template-rows 0.35s ease-out;
+}
+
+.Wrapper.Open {
+    grid-template-rows: 1fr;
+  }
+
 .Answer-Container {
-    padding-top: 20px;
+    overflow: hidden;
 }
 
 .Answer-Text {
+    padding-top: 20px;
     font-size: 16px;
     line-height: 150%;
     color: #ffffff;

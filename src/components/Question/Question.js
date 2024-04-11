@@ -7,13 +7,15 @@ function AccordionItem({ question, answer, isOpen, onClick }) {
     <div className='Question-Container'>
 
       {/* className toggles between 'active' and '' for every click */}
-      <button className={`Question-Button ${isOpen ? 'active' : ''}`} onClick={onClick}>
+      <button className='Question-Button' onClick={onClick}>
         <p className='Question-Text'>{question}</p>
       </button>
 
-      {/* Display of Answer Container toggles between show(block) and hide(none)*/}
-      <div className='Answer-Container' style={isOpen? { display:"block" }: { display: "none" }}>
-        <p className='Answer-Text'>{answer}</p>
+      {/*Wrapper toggles between show(open) and hidden*/}
+      <div className={`Wrapper ${isOpen ? 'Open' : ''}`}>
+        <div className='Answer-Container'>
+          <p className='Answer-Text'>{answer}</p>
+        </div>
       </div>
     </div>
   );
