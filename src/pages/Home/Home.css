@@ -1,16 +1,101 @@
-.Home-Container {
+/* Site Stylesheet
+  1. Global Styles
+  2. Section Styles
+  X. Media Queries
+======================================== */
+
+
+/* 1. Global Styles
+======================================== */
+.home-container {
     background: #010922;
     color: #ffffff;
+    margin: 0 auto;
+    max-width: 1065px;
+    width: 100%;
 }
 
-.caption {
-    font-weight: 700;
-    font-size: 16px;
-    letter-spacing: 0.28em;
-    text-transform: uppercase;
-    text-align: center;
-    background: linear-gradient(90deg, #ffd9d9 0%, #cba3ff 100%);
-    background-clip: text;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+.section {
+    min-height: 100dvh;
 }
+
+.center {
+    text-align: center;
+}
+
+.two-column {
+    display: flex;
+    flex-direction: row;
+}
+
+.two-column .column-1,
+.two-column .column-1 {
+    width: 50%;
+}
+
+
+/* 2. Section Styles
+======================================== */
+.hero-text { /*  Hero Section Styles  */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    row-gap: 2rem;
+}
+
+.hero-cta {
+    display: flex;
+    flex-direction: row;
+    column-gap: 1rem;
+}
+
+.hero-image {
+    margin: auto 0;
+}
+
+.hero-image img {
+    width: 100%;
+}
+
+.credibility { /*  Credibility Section  */
+    display: flex;
+    flex-direction: column;
+    padding: 100px 0;
+    row-gap: 4rem;
+}
+
+.partnered-orgs, 
+.testimonials,
+.testimonial-text { 
+    display: flex;
+    flex-direction: column;
+    row-gap: 2rem;
+}
+
+.orgs {
+    background-color: #1a196d;
+    border-radius: 1.25rem;
+    padding: 2rem;
+}
+
+.testimonial-cards {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.about-text {
+    display: flex;
+    flex-direction: column;
+    row-gap: 2rem;
+}
+
+.about-details {
+    display: flex;
+    flex-direction: column;
+    row-gap: 1rem;
+}
+
+
+/* X. Media Queries
+======================================== */
