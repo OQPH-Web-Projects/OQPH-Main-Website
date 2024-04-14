@@ -1,15 +1,18 @@
 import React from 'react';
+
+// CSS files
+import '../../pages/global.css';
 import './Testimonial.css'
 
 function Testimonial({ data }) {
   return (
-    <div className='Testimonial-Container'>
-        { data.message }
-        <div className='Profile-Container'>
+    <div className='testimonial-container'>
+        <p className='message'>{ data.message }</p>
+        <div className='profile-container'>
             <img src={ data.image } alt='Testimonial Profile' />
-            <div className='Text-Container'>
-                <p className='Profile-Name'>{ data.name }</p>
-                <p className='Profile-Position'>{ data.position }</p>
+            <div className='text-container'>
+                <p className='subheading'>{ data.name }</p>
+                <p>{ data.position }</p>
             </div>
         </div>
     </div>

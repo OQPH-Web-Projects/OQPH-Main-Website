@@ -1,9 +1,9 @@
 import React from 'react';
 import './Button.css';
 
-function Button({ text }) {
+function Button({ text, color }) {
   return (
-    <button className='Button-Component'>{ text }</button>
+    <button className={`${color}-button`}>{ text }</button>
   )
 }
 

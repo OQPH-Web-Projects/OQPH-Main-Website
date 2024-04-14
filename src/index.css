@@ -12,9 +12,11 @@ html {
 }
 
 body {
+  background: #010922;
   overflow-x: hidden;
   scroll-behavior: smooth;
   text-rendering: optimizeLegibility;
+  width: 100%;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
