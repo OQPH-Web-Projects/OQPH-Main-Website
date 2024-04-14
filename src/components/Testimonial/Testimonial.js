@@ -3,13 +3,13 @@ import './Testimonial.css'
 
 function Testimonial({ data }) {
   return (
-    <div className='Testimonial-Container'>
+    <div className='testimonial-container'>
         { data.message }
-        <div className='Profile-Container'>
+        <div className='profile-container'>
             <img src={ data.image } alt='Testimonial Profile' />
-            <div className='Text-Container'>
-                <p className='Profile-Name'>{ data.name }</p>
-                <p className='Profile-Position'>{ data.position }</p>
+            <div className='text-container'>
+                <p className='profile-name'>{ data.name }</p>
+                <p className='profile-position'>{ data.position }</p>
             </div>
         </div>
     </div>

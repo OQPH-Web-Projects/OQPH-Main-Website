@@ -1,13 +1,13 @@
 import React from "react";
-import Button from "./Button/Button";
+import './Partnership.css'
 
 function Partnership({ data }){
     return(
-        <div>
-            <img src={ data.image } alt="Partnership Icon" />
-            <h3>{ data.action }</h3>
-            <p>{ data.info }</p>
-            <Button text={ data.text } />
+        <div className={`partnership-card ${data.style}`}>
+            <img className="partnership-image" src={ data.image } alt="Partnership Icon" />
+            <h3 className="partnership-action">{ data.action }</h3>
+            <p className="partnership-info">{ data.info }</p>
+            <button className={`button-component ${data.style}`}>{ data.text }</button>
         </div>
     );
 };

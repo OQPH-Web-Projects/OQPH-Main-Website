@@ -1,11 +1,17 @@
-.Home-Container {
+.home-container {
     background: #010922;
     color: #ffffff;
 }
 
+.section {
+    display: flex;
+    justify-content: center;
+    padding: 100px 0px;
+}
+
 .caption {
     font-weight: 700;
-    font-size: 16px;
+    font-size: 1rem;
     letter-spacing: 0.28em;
     text-transform: uppercase;
     text-align: center;
@@ -13,4 +19,19 @@
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+}
+
+.title {
+    margin: 32px 0px;
+}
+
+.collaboration, 
+.questions {
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.partnership-container {
+    display: flex;
 }

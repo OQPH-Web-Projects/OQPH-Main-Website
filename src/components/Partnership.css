@@ -1,0 +1,58 @@
+.partnership-action {
+    font-weight: 700;
+    font-size: 1.25rem;
+    text-transform: capitalize;
+    text-align: justify;
+}
+
+.partnership-info {
+    font-size: 1rem;
+    line-height: 150%;
+    text-align: center;
+}
+
+.partnership-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 32px;
+    width: 345px;
+    height: 367px;
+    border-right: 1px solid #ffffff;
+}
+
+.partnership-card.variation-3 {
+    border: none
+}
+
+.partnership-image {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+
+.button-component.variation-1 {
+    background: #4217ba;
+    color: #ffffff;
+}
+
+.button-component.variation-2 {
+    background: #ffd9d9;
+    color: #010922;
+}
+
+.button-component.variation-3 {
+    background: #cba3ff;
+    color: #010922;
+}
+
+.button-component.variation-1:hover,
+.button-component.variation-2:focus,
+.button-component.variation-2:hover,
+.button-component.variation-2:focus,
+.button-component.variation-3:hover,
+.button-component.variation-3:focus{
+    background: transparent;
+    color: #ffffff;
+}
