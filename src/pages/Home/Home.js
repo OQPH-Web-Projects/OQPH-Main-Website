@@ -1,11 +1,20 @@
 import React from 'react';
 
-import Navigation from '../../components/Navigation';
+// Components
+import Navigation from '../../components/Navigation/Navigation';
 import Button from '../../components/Button/Button';
 import Testimonial from '../../components/Testimonial/Testimonial';
-import Partnership from '../../components/Partnership';
+import Partnership from '../../components/Partnership/Partnership';
 import Question from '../../components/Question/Question';
-import './Home.css'
+import Footer from '../../components/Footer';
+
+// CSS files
+import '../global.css';
+import './Home.css';
+
+// Images
+import heroImage from '../../assets/hero-image.png';
+import aboutImage from '../../assets/about-image.png';
 
 // Data files to display
 import { testimonialData } from '../../data/testimonialData';
@@ -18,37 +27,37 @@ function Home() {
 			<Navigation />
 
 			{/* ==== Hero Section ==== */}
-			<div>
+			<div className='two-column section'>
 				{/* 2-Column Section */}
-				<div>
-					<h1>Quantum Computing Philippines</h1>
+				<div className='hero-text column-1'>
+					<h1>OneQuantum Philippines</h1>
 					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-					<div>
-						<Button text='Join Us' />
-						<Button text='Learn More' />
+					<div className='hero-cta'>
+						<Button text='Join Us' color='gradient' />
+						<Button text='Learn More' color='outline' />
 					</div>
 				</div>
 				{/* Hero Image */}
-				<div></div>
+				<div className='hero-image column-2'><img src={ heroImage } alt='OneQuantum Philippines' /></div>
 			</div>
 
 			{/* ==== Credibility Section ==== */}
-			<div>
-				{/* Partnered Brands */}
-				<div>
+			<div className='credibility center'>
+				{/* Partnered Orgs */}
+				<div className='partnered-orgs'>
 					<p>Our nationwide programs are made possible through the support of:</p>
-					<div>
+					<div className='orgs'>
 						{/* Brands Insert Here */}
 					</div>
 				</div>
-				{/* 2-Column Section */}
-				<div>
-					<div>
+
+				<div className='testimonials'>
+					<div className='testimonial-text'>
 						<p className='caption'>Testimonials</p>
 						<h2>Lorem Ipsum Dolor Sit</h2>
 						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod</p>
 					</div>
-					<div>
+					<div className='testimonial-cards'>
 						{
 							testimonialData.map((data, index) =>
 								<Testimonial data={ data } key={ index } />
@@ -59,15 +68,15 @@ function Home() {
 			</div>
 
 			{/* ==== About Section ==== */}
-			<div>
+			<div className='two-column section'>
 				{/* About Image */}
-				<div></div>
+				<div className='column-1'><img src={ aboutImage } alt='About OneQuantum Philippines' /></div>
 				{/* About Text */}
-				<div>
-					<p>Testimonials</p>
-					<h2>Lorem Ipsum Dolor Sit</h2>
-					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod</p>
-					<div>
+				<div className='about-text column-2'>
+					<p className='caption'>About Us</p>
+					<h2>OneQuantum Philippines</h2>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+					<div className='about-details'>
 						<div>
 							{/* Icon Here */}
 							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
@@ -81,7 +90,7 @@ function Home() {
 							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
 						</div>
 					</div>
-					<Button text='Join Us' />
+					<Button text='Join Us' color='gradient' />
 				</div>
 			</div>
 
@@ -143,6 +152,8 @@ function Home() {
 				<h2 className='title'>FAQs</h2>
 				<Question questions={questionData}/>
 			</div>
+
+			<Footer />
 
 		</div>
 	);

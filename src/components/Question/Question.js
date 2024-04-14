@@ -23,15 +23,12 @@ function AccordionItem({ question, answer, isOpen, onClick }) {
     </div>
   );
 };
-
 //Returns a collection of accordions in FAQs
 function Question({ questions }) {
   const [activeIndex, setActiveIndex] = useState(null);
-
   const handleClick = (index) => {
     setActiveIndex(prevIndex => prevIndex === index? null: index)
   }
-
   return (
     <div>
       {questions.map((data, index) => (
@@ -46,5 +43,4 @@ function Question({ questions }) {
     </div>
   );
 };
-
 export default Question;

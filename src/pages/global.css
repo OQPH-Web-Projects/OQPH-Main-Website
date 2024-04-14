@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
+
+h1 {
+    font: 700 3rem "Lexend", sans-serif;
+}
+
+h2 {
+    font: 700 2.5rem "Lexend", sans-serif;
+}
+
+h3 {
+    font: 700 2rem "Lexend", sans-serif;
+}
+
+h4 {
+    font: 700 1.5rem "Lexend", sans-serif;
+}
+
+p {
+    font: 400 1rem "Nunito Sans", sans-serif;
+}
+
+.subheading {
+    font: 700 1.25rem "Lexend", sans-serif;
+}
+
+.caption {
+    font: 700 1rem "Nunito Sans", sans-serif;
+    letter-spacing: 0.281rem;
+    text-transform: uppercase;
+    background: linear-gradient(90deg, #ffd9d9 0%, #cba3ff 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}

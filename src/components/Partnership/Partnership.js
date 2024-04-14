@@ -1,4 +1,5 @@
 import React from "react";
+import Button from "../Button/Button";
 import './Partnership.css'
 
 function Partnership({ data }){
@@ -7,9 +8,8 @@ function Partnership({ data }){
             <img className="partnership-image" src={ data.image } alt="Partnership Icon" />
             <h3 className="partnership-action">{ data.action }</h3>
             <p className="partnership-info">{ data.info }</p>
-            <button className={`button-component ${data.style}`}>{ data.text }</button>
+            <Button color={ data.style }  text={ data.text } />
         </div>
     );
 };
-
 export default Partnership;

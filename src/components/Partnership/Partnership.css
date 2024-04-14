@@ -27,32 +27,22 @@
 }
 
 .partnership-image {
-    width: 80px;
-    height: 80px;
+    width: 5rem;
+    height: 5rem;
     border-radius: 50%;
 }
 
-.button-component.variation-1 {
+.variation-1-button {
     background: #4217ba;
     color: #ffffff;
 }
 
-.button-component.variation-2 {
+.variation-2-button {
     background: #ffd9d9;
     color: #010922;
 }
 
-.button-component.variation-3 {
+.variation-3-button {
     background: #cba3ff;
     color: #010922;
-}
-
-.button-component.variation-1:hover,
-.button-component.variation-2:focus,
-.button-component.variation-2:hover,
-.button-component.variation-2:focus,
-.button-component.variation-3:hover,
-.button-component.variation-3:focus{
-    background: transparent;
-    color: #ffffff;
 }
