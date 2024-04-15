@@ -12,23 +12,82 @@ button {
 }
 
 .gradient-button {
-    background: linear-gradient(90deg, #4217ba 0%, #cba3ff 100%);
+    background: linear-gradient(to right, #4217ba, #cba3ff);
     text-align: center;
 }
 
 .outline-button {
     background-color: transparent;
     border: 2px solid #ffffff;
-    opacity: 70%;
+    opacity: 50%;
 }
 
-.solid-1-button {
-    background-color: #4217bA;
+.variation-1-button {
+    background: #4217ba;
+    color: #ffffff;
+}
+
+.variation-2-button {
+    background: #ffd9d9;
+    color: #010922;
+}
+
+.variation-3-button {
+    background: #cba3ff;
+    color: #010922;
+}
+
+.gradient-button,
+.outline-button,
+.variation-1-button,
+.variation-2-button,
+.variation-3-button {
+    transition: opacity 0.2s ease-in;
 }
 
 
-/* .button-component:hover,
-.button-component:focus {
-    border: 2px solid rgba(255, 255, 255, 0.7);
-    background: transparent;
-} */
+/*===== Animation Styling =====*/
+
+.gradient-button:link,
+.variation-1-button:link,
+.variation-2-button:link,
+.variation-3-button:link {
+    opacity: 1;
+}
+
+.gradient-button:visited,
+.variation-1-button:visited,
+.variation-2-button:visited,
+.variation-3-button:visited {
+    opacity: 1;
+}
+
+.gradient-button:hover,
+.variation-1-button:hover,
+.variation-2-button:hover,
+.variation-3-button:hover {
+    opacity: 60%;
+}
+
+.gradient-button:active,
+.variation-1-button:active,
+.variation-2-button:active,
+.variation-3-button:active {
+    opacity: 60%;
+}
+
+.outline-button:link { /* Outline Button */
+    opacity: 50%;
+}
+
+.outline-button:visited {
+    opacity: 50%;
+}
+
+.outline-button:hover {
+    opacity: 1;
+}
+
+.outline-button:active {
+    opacity: 1;
+}
