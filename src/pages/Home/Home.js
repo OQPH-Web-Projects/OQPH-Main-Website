@@ -4,7 +4,7 @@ import React from 'react';
 import Navigation from '../../components/Navigation/Navigation';
 import Button from '../../components/Button/Button';
 import Testimonial from '../../components/Testimonial/Testimonial';
-import Partnership from '../../components/Partnership';
+import Partnership from '../../components/Partnership/Partnership';
 import Question from '../../components/Question/Question';
 import Footer from '../../components/Footer';
 
@@ -133,11 +133,11 @@ function Home() {
 			</div>
 
 			{/* ==== Collaboration Section ==== */}
-			<div>
+			<div className='collaboration section'>
 				<p className='caption'>Collaborations</p>
-				<h2>Help us bring world-class programs nationwide:</h2>
+				<h2 className='title'>Help us bring world-class programs nationwide:</h2>
 				{/* Partnership CTAs */}
-				<div>
+				<div className='partnership-container'>
 					{
 						partnershipData.map((data, index) => 
 							<Partnership data={ data } key={ index } />
@@ -147,8 +147,10 @@ function Home() {
 			</div>
 
 			{/* ==== FAQs ==== */}
-			<div>
-					<Question questions={questionData}/>
+			<div className='questions section'>
+				<p className='caption'>Frequently Asked Questions</p>
+				<h2 className='title'>FAQs</h2>
+				<Question questions={questionData}/>
 			</div>
 
 			<Footer />

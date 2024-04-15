@@ -1,14 +1,12 @@
-.Question-Container {
-    border-radius: 15px;
-    padding: 32px;
+.question-container {
+    border-radius: 1.25rem;
+    padding: 2rem;
     margin: 10px 0;
-    width: 1065px;
-    height: fit-content;
     background: #13124f;
     overflow: hidden;
 }
 
-.Question-Button {
+.question-button {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -16,34 +14,41 @@
     cursor: pointer;
     background: transparent;
     border: none;
+    padding: 0;
     text-align: left;
 }
 
-.Question-Text {
+.question-text {
     font-weight: 700;
-    font-size: 20px;
+    font-size: 1.25rem;
     text-transform: capitalize;
     color: #ffffff;
 }
 
-.Wrapper {
+.icon {
+    width: 2rem;
+    height: 2rem;
+    fill: #ffffff;
+}
+
+.wrapper {
     display: grid;
     grid-template-rows: 0fr;
     transition: grid-template-rows 0.35s ease-out;
 }
 
-.Wrapper.Open {
+.wrapper.open {
     grid-template-rows: 1fr;
-  }
+}
 
-.Answer-Container {
+.answer-container {
+    text-align: left;
     overflow: hidden;
 }
 
-.Answer-Text {
-    padding-top: 20px;
-    font-size: 16px;
+.answer-text {
+    margin-top: 1.25rem;
+    font-size: 1rem;
     line-height: 150%;
     color: #ffffff;
 }
-
