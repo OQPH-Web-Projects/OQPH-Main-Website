@@ -15,6 +15,7 @@ import './Home.css';
 // Images
 import heroImage from '../../assets/hero-image.png';
 import aboutImage from '../../assets/about-image.png';
+import detailedAboutImage from '../../assets/detailed-about-image.png';
 
 // Data files to display
 import { testimonialData } from '../../data/testimonialData';
@@ -95,35 +96,35 @@ function Home() {
 			</div>
 
 			{/* ==== Detailed About Section ==== */}
-			<div>
+			<div className='center detailed-about-section'>
 				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
 				{/* 3-Column Section */}
-				<div>
+				<div className='three-column'>
 					{/* 1st Column */}
-					<div>
-						<div>
+					<div className='detailed-about-column text'>
+						<div className='detailed-about-point'>
 							{/* Icon Here */}
 							<p>Lorem Ipsum</p>
 							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
 						</div>
-						<div>
+						<div className='detailed-about-point'>
 							{/* Icon Here */}
 							<p>Lorem Ipsum</p>
 							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
 						</div>
 					</div>
 					{/* 2nd Column */}
-					<div>
-						{/* Image Here */}
+					<div className='detailed-about-column'>
+						<img src={ detailedAboutImage } alt='About OneQuantum Philippines' />
 					</div>
 					{/* 3rd Column */}
-					<div>
-						<div>
+					<div className='detailed-about-column text'>
+						<div className='detailed-about-point'>
 							{/* Icon Here */}
 							<p>Lorem Ipsum</p>
 							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
 						</div>
-						<div>
+						<div className='detailed-about-point'>
 							{/* Icon Here */}
 							<p>Lorem Ipsum</p>
 							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
