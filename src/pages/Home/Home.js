@@ -17,6 +17,13 @@ import heroImage from '../../assets/hero-image.png';
 import aboutImage from '../../assets/about-image.png';
 import detailedAboutImage from '../../assets/detailed-about-image.png';
 import iconPlaceholder from '../../assets/icon-placeholder.png';
+import backendNews from '../../assets/orgs/backend-news.png';
+import dostAsti from '../../assets/orgs/dost-asti.png';
+import dostPcieerd from '../../assets/orgs/dost-pcieerd.png';
+import ibmQuantum from '../../assets/orgs/ibm-quantum.png';
+import msuIitCcs from '../../assets/orgs/msu-iit-ccs-ec.png';
+import qil from '../../assets/orgs/qil.png';
+import usc from '../../assets/orgs/usc.png';
 
 // Data files to display
 import { testimonialData } from '../../data/testimonialData';
@@ -49,8 +56,26 @@ function Home() {
 				<div className='partnered-orgs'>
 					<p>Our nationwide programs are made possible through the support of:</p>
 					<div className='orgs'>
-						{/* Brands Insert Here */}
+						<div className='orgs-carousel'>
+							<img className='orgs-logo' src={backendNews} alt='logo' />
+							<img className='orgs-logo' src={dostAsti} alt='logo' />
+							<img className='orgs-logo' src={dostPcieerd} alt='logo' />
+							<img className='orgs-logo' src={ibmQuantum} alt='logo' />
+							<img className='orgs-logo' src={msuIitCcs} alt='logo' />
+							<img className='orgs-logo' src={qil} alt='logo' />
+							<img className='orgs-logo' src={usc} alt='logo' />
+						</div>
+						<div className='orgs-carousel'>
+							<img className='orgs-logo' src={backendNews} alt='logo' />
+							<img className='orgs-logo' src={dostAsti} alt='logo' />
+							<img className='orgs-logo' src={dostPcieerd} alt='logo' />
+							<img className='orgs-logo' src={ibmQuantum} alt='logo' />
+							<img className='orgs-logo' src={msuIitCcs} alt='logo' />
+							<img className='orgs-logo' src={qil} alt='logo' />
+							<img className='orgs-logo' src={usc} alt='logo' />
+						</div>
 					</div>
+					
 				</div>
 
 				<div className='testimonials'>
@@ -79,16 +104,16 @@ function Home() {
 					<h2>OneQuantum Philippines</h2>
 					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
 					<div className='about-details'>
-						<div>
-							{/* Icon Here */}
+						<div className='about-details-content' >
+							<img className='icon' src={iconPlaceholder} alt='icon' />
 							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
 						</div>
-						<div>
-							{/* Icon Here */}
+						<div className='about-details-content' >
+							<img className='icon' src={iconPlaceholder} alt='icon' />
 							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
 						</div>
-						<div>
-							{/* Icon Here */}
+						<div className='about-details-content' >
+							<img className='icon' src={iconPlaceholder} alt='icon' />
 							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
 						</div>
 					</div>

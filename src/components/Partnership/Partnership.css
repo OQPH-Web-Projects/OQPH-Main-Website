@@ -26,23 +26,7 @@
     border: none
 }
 
-.partnership-image {
-    height: 3.5rem;
-}
-
-.partnership-image.variation-1 {
-    filter: drop-shadow(2px 2px 2px #0c034e);
-}
-
-.partnership-image.variation-2 {
-    filter: drop-shadow(2px 2px 2px #6b5252);
-}
-
-.partnership-image.variation-3 {
-    filter: drop-shadow(2px 2px 2px #654292);
-}
-
-.partnership-image-container {
+.partnership-icon-container {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -51,15 +35,33 @@
     border-radius: 50%;
 }
 
-.partnership-image-container.variation-1 {
+.partnership-icon-container.variation-1 {
     background: #4217ba;
 }
 
-.partnership-image-container.variation-2 {
+.partnership-icon-container.variation-2 {
     background: #ffd9d9;
 }
 
-.partnership-image-container.variation-3 {
+.partnership-icon-container.variation-3 {
     background: #cba3ff;
 }
+
+.partnership-icon-container .cta-icon {
+    height: 3.5rem;
+    width: 3.5rem;
+}
+
+.volunteer-icon {
+    filter: drop-shadow(2px 2px 2px #0c034e);
+}
+
+.partnership-icon {
+    filter: drop-shadow(2px 2px 2px #6b5252);
+}
+
+.chapter-icon {
+    filter: drop-shadow(2px 2px 2px #654292);
+}
+
 

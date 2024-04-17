@@ -86,10 +86,55 @@
     row-gap: 2rem;
 }
 
+
+@keyframes carousel {
+    from{
+        transform: translateX(0);
+    }
+    to{
+        transform: translateX(-100%);
+    }
+}
+
 .orgs {
+    position: relative;
     background-color: #1a196d;
     border-radius: 1.25rem;
     padding: 2rem;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.orgs::before {
+    position: absolute;
+    content: '';
+    background: linear-gradient(to left, transparent, #1a196d);
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 10rem;
+    z-index: 2;
+}
+
+.orgs::after {
+    position: absolute;
+    content: '';
+    background: linear-gradient(to right, transparent, #1a196d);
+    top: 0;
+    right: 0;
+    height: 100%;
+    width: 10rem;
+    z-index: 2;
+}
+
+.orgs-carousel {
+    display: inline-block;
+    animation: 30s carousel infinite linear;
+}
+
+.orgs-logo {
+    height: 3rem;
+    margin: 0 5rem;
 }
 
 .testimonial-cards {
@@ -108,6 +153,11 @@
     display: flex;
     flex-direction: column;
     row-gap: 1rem;
+}
+
+.about-details-content { 
+    display: flex;
+    gap: 1rem;
 }
 
 .detailed-about-section > p { /*  Detailed About Us Section  */
