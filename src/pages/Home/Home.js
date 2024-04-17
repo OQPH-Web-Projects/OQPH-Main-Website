@@ -16,6 +16,7 @@ import './Home.css';
 import heroImage from '../../assets/hero-image.png';
 import aboutImage from '../../assets/about-image.png';
 import detailedAboutImage from '../../assets/detailed-about-image.png';
+import iconPlaceholder from '../../assets/icon-placeholder.png';
 
 // Data files to display
 import { testimonialData } from '../../data/testimonialData';
@@ -104,11 +105,13 @@ function Home() {
 					<div className='detailed-about-column text'>
 						<div className='detailed-about-point'>
 							{/* Icon Here */}
+							<img className='icon' src={iconPlaceholder} alt='icon' />
 							<p>Lorem Ipsum</p>
 							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
 						</div>
 						<div className='detailed-about-point'>
 							{/* Icon Here */}
+							<img className='icon' src={iconPlaceholder} alt='icon' />
 							<p>Lorem Ipsum</p>
 							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
 						</div>
@@ -121,11 +124,13 @@ function Home() {
 					<div className='detailed-about-column text'>
 						<div className='detailed-about-point'>
 							{/* Icon Here */}
+							<img className='icon' src={iconPlaceholder} alt='icon' />
 							<p>Lorem Ipsum</p>
 							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
 						</div>
 						<div className='detailed-about-point'>
 							{/* Icon Here */}
+							<img className='icon' src={iconPlaceholder} alt='icon' />
 							<p>Lorem Ipsum</p>
 							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
 						</div>
