@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-// import { IoIosArrowDown, IoIosArrowUp } from 'react-icons/io';
+import { IoIosArrowDown, IoIosArrowUp } from 'react-icons/io';
 import './Question.css';
 
 //Template for individual accordion in FAQs
@@ -11,7 +11,7 @@ function AccordionItem({ question, answer, isOpen, onClick }) {
       <button className='question-button' onClick={onClick}>
         <p className='question-text'>{question}</p>
         {/* Conditional rendering: if not open, Arrow Down. if open, Arrow Up  */}
-        {/* {!isOpen? <IoIosArrowDown  className='icon'/>: <IoIosArrowUp  className='icon'/>} */}
+        {!isOpen? <IoIosArrowDown  className='icon'/>: <IoIosArrowUp  className='icon'/>}
       </button>
 
       {/*Wrapper toggles between show(open) and hidden*/}
