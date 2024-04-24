@@ -2,7 +2,7 @@
     font-weight: 700;
     font-size: 1.25rem;
     text-transform: capitalize;
-    text-align: justify;
+    text-align: center;
 }
 
 .partnership-info {
@@ -19,7 +19,10 @@
     padding: 32px;
     width: 345px;
     height: 367px;
-    border-right: 1px solid #ffffff;
+
+    @media (min-width: 768px) {
+        border-right: 1px solid #ffffff;
+    }
 }
 
 .partnership-card.variation-3 {
