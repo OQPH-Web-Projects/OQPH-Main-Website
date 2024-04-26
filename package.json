@@ -14,7 +14,7 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "start": "react-scripts start",
+    "start": "NODE_OPTIONS='--openssl-legacy-provider' npm run build",
     "predeploy": "npm run build",
     "deploy" : "gh-pages -d build",
     "build": "react-scripts build",
