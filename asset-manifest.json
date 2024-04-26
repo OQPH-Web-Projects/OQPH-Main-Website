@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/test-repo/static/css/main.40c04366.css",
-    "main.js": "/test-repo/static/js/main.5a8c5f1e.js",
-    "static/media/hero-image.png": "/test-repo/static/media/hero-image.cdc9dc7fbac71a0bec64.png",
-    "static/media/about-image.png": "/test-repo/static/media/about-image.1a284f96a680c4fc4e43.png",
-    "static/media/detailed-about-image.png": "/test-repo/static/media/detailed-about-image.6e79c8b741c6f9b4067e.png",
-    "static/media/icon-placeholder.png": "/test-repo/static/media/icon-placeholder.b500f0a6d3ea3fac5b7b.png",
-    "static/media/usc.png": "/test-repo/static/media/usc.5252f727a3e8047c566a.png",
-    "static/media/dost-pcieerd.png": "/test-repo/static/media/dost-pcieerd.dc8e915c22e984b97d98.png",
-    "static/media/msu-iit-ccs-ec.png": "/test-repo/static/media/msu-iit-ccs-ec.dfc14ec7630130655d04.png",
-    "static/media/dost-asti.png": "/test-repo/static/media/dost-asti.42f3d08147d52c3a7d2c.png",
-    "static/media/backend-news.png": "/test-repo/static/media/backend-news.4c0fb5d6249a004054c3.png",
-    "static/media/qil.png": "/test-repo/static/media/qil.3cc48f13083d5e2105a8.png",
-    "index.html": "/test-repo/index.html",
-    "main.40c04366.css.map": "/test-repo/static/css/main.40c04366.css.map",
-    "main.5a8c5f1e.js.map": "/test-repo/static/js/main.5a8c5f1e.js.map"
+    "main.css": "/OneQuantum-Philippines/static/css/main.40c04366.css",
+    "main.js": "/OneQuantum-Philippines/static/js/main.64c62406.js",
+    "static/media/hero-image.png": "/OneQuantum-Philippines/static/media/hero-image.cdc9dc7fbac71a0bec64.png",
+    "static/media/about-image.png": "/OneQuantum-Philippines/static/media/about-image.1a284f96a680c4fc4e43.png",
+    "static/media/detailed-about-image.png": "/OneQuantum-Philippines/static/media/detailed-about-image.6e79c8b741c6f9b4067e.png",
+    "static/media/icon-placeholder.png": "/OneQuantum-Philippines/static/media/icon-placeholder.b500f0a6d3ea3fac5b7b.png",
+    "static/media/usc.png": "/OneQuantum-Philippines/static/media/usc.5252f727a3e8047c566a.png",
+    "static/media/dost-pcieerd.png": "/OneQuantum-Philippines/static/media/dost-pcieerd.dc8e915c22e984b97d98.png",
+    "static/media/msu-iit-ccs-ec.png": "/OneQuantum-Philippines/static/media/msu-iit-ccs-ec.dfc14ec7630130655d04.png",
+    "static/media/dost-asti.png": "/OneQuantum-Philippines/static/media/dost-asti.42f3d08147d52c3a7d2c.png",
+    "static/media/backend-news.png": "/OneQuantum-Philippines/static/media/backend-news.4c0fb5d6249a004054c3.png",
+    "static/media/qil.png": "/OneQuantum-Philippines/static/media/qil.3cc48f13083d5e2105a8.png",
+    "index.html": "/OneQuantum-Philippines/index.html",
+    "main.40c04366.css.map": "/OneQuantum-Philippines/static/css/main.40c04366.css.map",
+    "main.64c62406.js.map": "/OneQuantum-Philippines/static/js/main.64c62406.js.map"
   },
   "entrypoints": [
     "static/css/main.40c04366.css",
-    "static/js/main.5a8c5f1e.js"
+    "static/js/main.64c62406.js"
   ]
 }
