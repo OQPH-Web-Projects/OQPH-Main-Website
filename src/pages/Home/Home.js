@@ -36,18 +36,13 @@ function Home() {
 			<Navigation />
 
 			{/* ==== Hero Section ==== */}
-			<div className='two-column section'>
-				{/* 2-Column Section */}
-				<div className='hero-text column-1'>
-					<h1>OneQuantum Philippines</h1>
-					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-					<div className='hero-cta'>
-						<Button text='Join Us' color='gradient' target='collaboration' />
-						<Button text='Learn More' color='outline' target='about' />
-					</div>
+			<div className='hero section'>
+				<h1>OneQuantum Philippines</h1>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+				<div className='hero-cta'>
+					<Button text='Join Us' color='gradient' target='collaboration' />
+					<Button text='Learn More' color='outline' target='about' />
 				</div>
-				{/* Hero Image */}
-				<div className='hero-image column-2'><img src={ heroImage } alt='OneQuantum Philippines' /></div>
 			</div>
 
 			{/* ==== Credibility Section ==== */}
@@ -143,7 +138,7 @@ function Home() {
 					</div>
 					{/* 2nd Column */}
 					<div className='detailed-about-column'>
-						<img src={ detailedAboutImage } alt='About OneQuantum Philippines' />
+						<img className='detailed-about-image' src={ detailedAboutImage } alt='About OneQuantum Philippines' />
 					</div>
 					{/* 3rd Column */}
 					<div className='detailed-about-column text'>
