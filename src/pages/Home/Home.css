@@ -8,7 +8,6 @@
 /* 1. Global Styles
 ======================================== */
 .home-container {
-    background: #010922;
     color: #ffffff;
     margin: 0 auto;
     width: 75%;
@@ -51,11 +50,24 @@
 
 /* 2. Section Styles
 ======================================== */
+.background {
+    background-image: url('/src/assets/hero-image.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100dvh;
+    width: 100%;
+    position: absolute;
+    z-index: 0;
+    top: 0;
+    left: 0;
+}
+
 .hero {
     display: flex;
     flex-direction: column;
     justify-content: center;
     row-gap: 1rem;
+    position: relative;
 }
 
 .hero-cta {
@@ -248,9 +260,21 @@
     }
 }
 
+@media screen and (max-width: 767px) {
+    .detailed-about-image {
+        height: 450px;
+        width: auto;
+    }
+}
+
 @media screen and (max-width: 450px) {
     .hero-cta {
         flex-direction: column;
         row-gap: 1rem;
+    }
+
+    .detailed-about-image {
+        height: auto;
+        width: 100%;
     }
 }

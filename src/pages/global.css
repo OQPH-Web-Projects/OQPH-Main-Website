@@ -10,16 +10,15 @@
 }
 
 html {
+    background: #010922;
     font-size: 16px;
-    height: 100%;
-    width: 100%;
+    overflow-x: hidden;
     -ms-text-size-adjust: 100%;
     -webkit-text-size-adjust: 100%;
 }
 
 body {
     background: #010922;
-    overflow-x: hidden;
     scroll-behavior: smooth;
     text-rendering: optimizeLegibility;
     height: 100%;
