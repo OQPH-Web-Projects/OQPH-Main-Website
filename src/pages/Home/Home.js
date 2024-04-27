@@ -6,14 +6,13 @@ import Button from '../../components/Button/Button';
 import Testimonial from '../../components/Testimonial/Testimonial';
 import Partnership from '../../components/Partnership/Partnership';
 import Question from '../../components/Question/Question';
-import Footer from '../../components/Footer';
+import Footer from '../../components/Footer/Footer';
 
 // CSS files
 import '../global.css';
 import './Home.css';
 
 // Images
-import heroImage from '../../assets/hero-image.png';
 import aboutImage from '../../assets/about-image.png';
 import detailedAboutImage from '../../assets/detailed-about-image.png';
 import iconPlaceholder from '../../assets/icon-placeholder.png';
@@ -35,23 +34,20 @@ function Home() {
 		<div className='home-container'>
 			<Navigation />
 
+			<div className='background'></div>
+
 			{/* ==== Hero Section ==== */}
-			<div className='two-column section'>
-				{/* 2-Column Section */}
-				<div className='hero-text column-1'>
-					<h1>OneQuantum Philippines</h1>
-					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-					<div className='hero-cta'>
-						<Button text='Join Us' color='gradient' />
-						<Button text='Learn More' color='outline' />
-					</div>
+			<div className='hero section'>
+				<h1>OneQuantum Philippines</h1>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+				<div className='hero-cta'>
+					<Button text='Join Us' color='gradient' target='collaboration' />
+					<Button text='Learn More' color='outline' target='about' />
 				</div>
-				{/* Hero Image */}
-				<div className='hero-image column-2'><img src={ heroImage } alt='OneQuantum Philippines' /></div>
 			</div>
 
 			{/* ==== Credibility Section ==== */}
-			<div className='credibility center'>
+			<div className='credibility center width'>
 				{/* Partnered Orgs */}
 				<div className='partnered-orgs'>
 					<p>Our nationwide programs are made possible through the support of:</p>
@@ -95,7 +91,7 @@ function Home() {
 			</div>
 
 			{/* ==== About Section ==== */}
-			<div className='two-column section'>
+			<div className='two-column section width' id='about'>
 				{/* About Image */}
 				<div className='column-1'><img src={ aboutImage } alt='About OneQuantum Philippines' /></div>
 				{/* About Text */}
@@ -117,12 +113,12 @@ function Home() {
 							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
 						</div>
 					</div>
-					<Button text='Join Us' color='gradient' />
+					<Button text='Join Us' color='gradient' target='collaboration' />
 				</div>
 			</div>
 
 			{/* ==== Detailed About Section ==== */}
-			<div className='center detailed-about-section'>
+			<div className='center detailed-about-section width'>
 				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
 				{/* 3-Column Section */}
 				<div className='three-column'>
@@ -143,7 +139,7 @@ function Home() {
 					</div>
 					{/* 2nd Column */}
 					<div className='detailed-about-column'>
-						<img src={ detailedAboutImage } alt='About OneQuantum Philippines' />
+						<img className='detailed-about-image' src={ detailedAboutImage } alt='About OneQuantum Philippines' />
 					</div>
 					{/* 3rd Column */}
 					<div className='detailed-about-column text'>
@@ -164,7 +160,7 @@ function Home() {
 			</div>
 
 			{/* ==== Collaboration Section ==== */}
-			<div className='collaboration section'>
+			<div className='collaboration section width' id='collaboration'>
 				<p className='caption'>Collaborations</p>
 				<h2 className='title'>Help us bring world-class programs nationwide:</h2>
 				{/* Partnership CTAs */}
@@ -178,7 +174,7 @@ function Home() {
 			</div>
 
 			{/* ==== FAQs ==== */}
-			<div className='questions section'>
+			<div className='questions section width'>
 				<p className='caption'>Frequently Asked Questions</p>
 				<h2 className='title'>FAQs</h2>
 				<Question questions={questionData}/>

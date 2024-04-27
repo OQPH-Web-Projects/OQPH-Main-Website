@@ -10,7 +10,7 @@ function Partnership({ data }){
             </div>
             <h3 className="partnership-action">{ data.action }</h3>
             <p className="partnership-info">{ data.info }</p>
-            <Button color={ data.style }  text={ data.text } />
+            <Button color={ data.style }  text={ data.text } target='contact' />
         </div>
     );
 };

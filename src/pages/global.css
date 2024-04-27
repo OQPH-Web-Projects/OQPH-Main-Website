@@ -5,19 +5,23 @@
     margin: 0;
 }
 
-html {
-    font-size: 16px;
-    height: 100%;
+.App {
     width: 100%;
+}
+
+html {
+    background: #010922;
+    font-size: 16px;
+    overflow-x: hidden;
     -ms-text-size-adjust: 100%;
     -webkit-text-size-adjust: 100%;
 }
 
 body {
     background: #010922;
-    overflow-x: hidden;
     scroll-behavior: smooth;
     text-rendering: optimizeLegibility;
+    height: 100%;
     width: 100%;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
@@ -53,6 +57,16 @@ h4 {
 
 p {
     font: 400 1rem "Nunito Sans", sans-serif;
+}
+
+a {
+    color: #ffffff;
+    font: 400 1rem "Nunito Sans", sans-serif;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
 }
 
 .subheading {

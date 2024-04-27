@@ -56,3 +56,9 @@
     line-height: 150%;
     color: #ffffff;
 }
+
+@media screen and (max-width: 450px) {
+    .question-container {
+        padding: 1.5rem 1rem;
+    }
+}
