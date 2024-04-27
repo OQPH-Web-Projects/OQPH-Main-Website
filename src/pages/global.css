@@ -55,6 +55,16 @@ p {
     font: 400 1rem "Nunito Sans", sans-serif;
 }
 
+a {
+    color: #ffffff;
+    font: 400 1rem "Nunito Sans", sans-serif;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
 .subheading {
     font: 700 1.25rem "Lexend", sans-serif;
 }

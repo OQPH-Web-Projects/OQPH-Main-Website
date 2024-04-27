@@ -4,6 +4,18 @@
     justify-content: space-between;
     padding: 1rem 0;
     position: absolute;
-    max-width: 1065px;
-    width: 100%;
+    width: inherit;
+    height: 5rem;
+}
+
+.nav div {
+    align-items: center;
+    display: flex;
+    column-gap: 2rem;
+    height: 100%;
+}
+
+.logo {
+    height: 100%;
+    cursor: pointer;
 }

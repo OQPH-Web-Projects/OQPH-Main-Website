@@ -6,7 +6,7 @@ import Button from '../../components/Button/Button';
 import Testimonial from '../../components/Testimonial/Testimonial';
 import Partnership from '../../components/Partnership/Partnership';
 import Question from '../../components/Question/Question';
-import Footer from '../../components/Footer';
+import Footer from '../../components/Footer/Footer';
 
 // CSS files
 import '../global.css';
@@ -42,8 +42,8 @@ function Home() {
 					<h1>OneQuantum Philippines</h1>
 					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
 					<div className='hero-cta'>
-						<Button text='Join Us' color='gradient' />
-						<Button text='Learn More' color='outline' />
+						<Button text='Join Us' color='gradient' target='collaboration' />
+						<Button text='Learn More' color='outline' target='about' />
 					</div>
 				</div>
 				{/* Hero Image */}
@@ -95,7 +95,7 @@ function Home() {
 			</div>
 
 			{/* ==== About Section ==== */}
-			<div className='two-column section'>
+			<div className='two-column section' id='about'>
 				{/* About Image */}
 				<div className='column-1'><img src={ aboutImage } alt='About OneQuantum Philippines' /></div>
 				{/* About Text */}
@@ -117,7 +117,7 @@ function Home() {
 							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
 						</div>
 					</div>
-					<Button text='Join Us' color='gradient' />
+					<Button text='Join Us' color='gradient' target='collaboration' />
 				</div>
 			</div>
 
@@ -164,7 +164,7 @@ function Home() {
 			</div>
 
 			{/* ==== Collaboration Section ==== */}
-			<div className='collaboration section'>
+			<div className='collaboration section' id='collaboration'>
 				<p className='caption'>Collaborations</p>
 				<h2 className='title'>Help us bring world-class programs nationwide:</h2>
 				{/* Partnership CTAs */}
