@@ -17,7 +17,7 @@
     "main.64c62406.js.map": "/OneQuantum-Philippines/static/js/main.64c62406.js.map"
   },
   "entrypoints": [
-    "static/css/main.40c04366.css",
-    "static/js/main.64c62406.js"
+    "/OneQuantum-Philippines/static/css/main.40c04366.css",
+    "/OneQuantum-Philippines/static/js/main.64c62406.js"
   ]
 }
