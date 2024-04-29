@@ -1,0 +1,42 @@
+.testimonial-container {
+    background: #13124f;
+    border-radius: 20px;
+    color: #ffffff;
+    line-height: 150%;
+    width: 240px;
+    height: 391px;
+    padding: 2rem;
+    text-align: justify;
+
+    @media (min-width: 768px) {
+        width: min(calc(30%), 310px);
+        height: max(100%, 310px);
+    }
+}
+
+.message {
+    margin-bottom: 1rem;
+}
+
+.profile-container {
+    display: flex;
+    column-gap: 1rem;
+    text-align: left;
+}
+
+.profile-container img {
+    height: 100%;
+}
+
+.text-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+@media screen and (max-width: 767px) {
+    .testimonial-container {
+        width: 100%;
+        height: fit-content;
+    }
+}
