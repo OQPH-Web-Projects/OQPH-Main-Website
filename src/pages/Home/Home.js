@@ -39,7 +39,7 @@ function Home() {
 			{/* ==== Hero Section ==== */}
 			<div className='hero section'>
 				<h1>OneQuantum Philippines</h1>
-				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+				<p>Empowering Filipino Talents in Quantum Science and Technologies.</p>
 				<div className='hero-cta'>
 					<Button text='Join Us' color='gradient' target='collaboration' />
 					<Button text='Learn More' color='outline' target='about' />
@@ -98,19 +98,19 @@ function Home() {
 				<div className='about-text column-2'>
 					<p className='caption'>About Us</p>
 					<h2>OneQuantum Philippines</h2>
-					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+					<p>Known globally as OneQuantum Philippines, QCSP is the leading community of academics, industry leaders, and quantum enthusiasts. Together, we're building a vibrant quantum ecosystem in the Philippines, fostering collaboration and innovation. Moving the quantum frontier, one qubit at a time. </p>
 					<div className='about-details'>
 						<div className='about-details-content' >
 							<img className='icon' src={iconPlaceholder} alt='icon' />
-							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+							<p><strong>Researchers</strong>: Collaborate, share knowledge, and accelerate discoveries with QCSP. Push the boundaries of quantum science together.</p>
 						</div>
 						<div className='about-details-content' >
 							<img className='icon' src={iconPlaceholder} alt='icon' />
-							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+							<p><strong>Industry Leaders</strong>: Bridge the gap between research and real-world applications. Gain a competitive edge in quantum technologies.</p>
 						</div>
 						<div className='about-details-content' >
 							<img className='icon' src={iconPlaceholder} alt='icon' />
-							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+							<p><strong>Learners & Enthusiasts</strong>: Ignite your passion for quantum technologies. Access resources, connect with a community, and explore this transformative field.</p>
 						</div>
 					</div>
 					<Button text='Join Us' color='gradient' target='collaboration' />
