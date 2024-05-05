@@ -14,7 +14,7 @@ import './Home.css';
 
 // Images
 import aboutImage from '../../assets/about-image.png';
-import detailedAboutImage from '../../assets/detailed-about-image.png';
+// import detailedAboutImage from '../../assets/detailed-about-image.png';
 import iconPlaceholder from '../../assets/icon-placeholder.png';
 import backendNews from '../../assets/orgs/backend-news.png';
 import dostAsti from '../../assets/orgs/dost-asti.png';
@@ -77,8 +77,8 @@ function Home() {
 				<div className='testimonials'>
 					<div className='testimonial-text'>
 						<p className='caption'>Testimonials</p>
-						<h2>Lorem Ipsum Dolor Sit</h2>
-						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod</p>
+						<h2>Hear what our community says</h2>
+						{/* <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod</p> */}
 					</div>
 					<div className='testimonial-cards'>
 						{
