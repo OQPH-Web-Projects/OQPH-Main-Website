@@ -97,7 +97,7 @@ function Home() {
 				{/* About Text */}
 				<div className='about-text column-2'>
 					<p className='caption'>About Us</p>
-					<h2>OneQuantum Philippines</h2>
+					<h2>Quantum Computing Society of the Philippines</h2>
 					<p>Known globally as OneQuantum Philippines, QCSP is the leading community of academics, industry leaders, and quantum enthusiasts. Together, we're building a vibrant quantum ecosystem in the Philippines, fostering collaboration and innovation. Moving the quantum frontier, one qubit at a time. </p>
 					<div className='about-details'>
 						<div className='about-details-content' >
