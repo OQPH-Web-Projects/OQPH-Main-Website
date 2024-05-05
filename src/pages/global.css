@@ -10,7 +10,7 @@
 }
 
 html {
-    background: #010922;
+    background: #130724;
     font-size: 16px;
     overflow-x: hidden;
     -ms-text-size-adjust: 100%;
@@ -18,7 +18,7 @@ html {
 }
 
 body {
-    background: #010922;
+    background: #130724;
     scroll-behavior: smooth;
     text-rendering: optimizeLegibility;
     height: 100%;
