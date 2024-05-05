@@ -118,46 +118,46 @@ function Home() {
 			</div>
 
 			{/* ==== Detailed About Section ==== */}
-			<div className='center detailed-about-section width'>
-				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+			{/* <div className='center detailed-about-section width'> */}
+				{/* <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p> */}
 				{/* 3-Column Section */}
-				<div className='three-column'>
+				{/* <div className='three-column'> */}
 					{/* 1st Column */}
-					<div className='detailed-about-column text'>
-						<div className='detailed-about-point'>
+					{/* <div className='detailed-about-column text'> */}
+						{/* <div className='detailed-about-point'> */}
 							{/* Icon Here */}
-							<img className='icon' src={iconPlaceholder} alt='icon' />
-							<p>Lorem Ipsum</p>
-							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-						</div>
-						<div className='detailed-about-point'>
+							{/* <img className='icon' src={iconPlaceholder} alt='icon' /> */}
+							{/* <p>Lorem Ipsum</p> */}
+							{/* <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p> */}
+						{/* </div> */}
+						{/* <div className='detailed-about-point'> */}
 							{/* Icon Here */}
-							<img className='icon' src={iconPlaceholder} alt='icon' />
-							<p>Lorem Ipsum</p>
-							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-						</div>
-					</div>
+							{/* <img className='icon' src={iconPlaceholder} alt='icon' /> */}
+							{/* <p>Lorem Ipsum</p> */}
+							{/* <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p> */}
+						{/* </div> */}
+					{/* </div> */}
 					{/* 2nd Column */}
-					<div className='detailed-about-column'>
-						<img className='detailed-about-image' src={ detailedAboutImage } alt='About OneQuantum Philippines' />
-					</div>
+					{/* <div className='detailed-about-column'> */}
+						{/* <img className='detailed-about-image' src={ detailedAboutImage } alt='About OneQuantum Philippines' /> */}
+					{/* </div> */}
 					{/* 3rd Column */}
-					<div className='detailed-about-column text'>
-						<div className='detailed-about-point'>
+					{/* <div className='detailed-about-column text'> */}
+						{/* <div className='detailed-about-point'> */}
 							{/* Icon Here */}
-							<img className='icon' src={iconPlaceholder} alt='icon' />
-							<p>Lorem Ipsum</p>
-							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-						</div>
-						<div className='detailed-about-point'>
+							{/* <img className='icon' src={iconPlaceholder} alt='icon' /> */}
+							{/* <p>Lorem Ipsum</p> */}
+							{/* <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p> */}
+						{/* </div> */}
+						{/* // <div className='detailed-about-point'> */}
 							{/* Icon Here */}
-							<img className='icon' src={iconPlaceholder} alt='icon' />
-							<p>Lorem Ipsum</p>
-							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-						</div>
+							{/* <img className='icon' src={iconPlaceholder} alt='icon' /> */}
+							{/* <p>Lorem Ipsum</p> */}
+							{/* <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p> */}
+						{/* </div>
 					</div>
 				</div>
-			</div>
+			</div> */}
 
 			{/* ==== Collaboration Section ==== */}
 			<div className='collaboration section width' id='collaboration'>
