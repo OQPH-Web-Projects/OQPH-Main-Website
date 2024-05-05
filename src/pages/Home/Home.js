@@ -24,6 +24,7 @@ import msuIitCcs from '../../assets/orgs/msu-iit-ccs-ec.png';
 import qil from '../../assets/orgs/qil.png';
 import usc from '../../assets/orgs/usc.png';
 
+
 // Data files to display
 import { testimonialData } from '../../data/testimonialData';
 import { partnershipData } from '../../data/partnershipData';
