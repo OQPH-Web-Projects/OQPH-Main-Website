@@ -2,8 +2,28 @@
     border-top: 1px solid #ffffff;
     height: 5rem;
     padding: 1.125rem 0;
+    display: flex;
+    justify-content: space-between;
 }
 
 .full-logo {
     height: 100%;
+}
+
+.socials-container {
+    display: flex;
+}
+
+.socials-container .socials-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: transparent;
+    height: 4rem;
+    min-width: 4rem;
+}
+
+.socials-icon {
+    height: 2rem;
+    width: 2rem;
 }

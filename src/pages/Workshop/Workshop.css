@@ -1,0 +1,32 @@
+.workshop-container {
+    color: #ffffff;
+    margin: 0 auto;
+    width: 75%;
+}
+
+.workshop-title {
+    color: #AD64F7;
+}
+
+.about-workshop {
+    display: flex;
+    flex-direction: column;
+    row-gap: 2rem;
+}
+
+.about-workshop-content {
+    font-size: large;
+    display: flex;
+    flex-direction: column;
+    row-gap: 2rem;
+}
+
+.workshop-buttons {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.workshop-buttons button {
+    margin-top: 2rem; 
+}
