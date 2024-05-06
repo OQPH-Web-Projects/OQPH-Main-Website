@@ -10,7 +10,7 @@
 }
 
 html {
-    background: #010922;
+    background: #130724;
     font-size: 16px;
     overflow-x: hidden;
     -ms-text-size-adjust: 100%;
@@ -18,7 +18,7 @@ html {
 }
 
 body {
-    background: #010922;
+    background: #130724;
     scroll-behavior: smooth;
     text-rendering: optimizeLegibility;
     height: 100%;
@@ -36,6 +36,8 @@ h1 {
 
 h2 {
     font: 700 1.5rem "Lexend", sans-serif;
+    opacity: 0; 
+    animation: fadeIn 1s ease forwards;
     @media (min-width: 768px) { /* Tablet and Desktop */
         font-size: 2.5rem;
     }
@@ -57,6 +59,8 @@ h4 {
 
 p {
     font: 400 1rem "Nunito Sans", sans-serif;
+    opacity: 0; 
+    animation: fadeIn 1s ease forwards;
 }
 
 a {
@@ -81,4 +85,13 @@ a:hover {
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
 }

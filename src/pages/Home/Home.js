@@ -14,7 +14,7 @@ import './Home.css';
 
 // Images
 import aboutImage from '../../assets/about-image.png';
-import detailedAboutImage from '../../assets/detailed-about-image.png';
+// import detailedAboutImage from '../../assets/detailed-about-image.png';
 import iconPlaceholder from '../../assets/icon-placeholder.png';
 import backendNews from '../../assets/orgs/backend-news.png';
 import dostAsti from '../../assets/orgs/dost-asti.png';
@@ -23,6 +23,7 @@ import ibmQuantum from '../../assets/orgs/ibm-quantum.png';
 import msuIitCcs from '../../assets/orgs/msu-iit-ccs-ec.png';
 import qil from '../../assets/orgs/qil.png';
 import usc from '../../assets/orgs/usc.png';
+
 
 // Data files to display
 import { testimonialData } from '../../data/testimonialData';
@@ -77,8 +78,8 @@ function Home() {
 				<div className='testimonials'>
 					<div className='testimonial-text'>
 						<p className='caption'>Testimonials</p>
-						<h2>Lorem Ipsum Dolor Sit</h2>
-						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod</p>
+						<h2>Hear what our community says</h2>
+						{/* <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod</p> */}
 					</div>
 					<div className='testimonial-cards'>
 						{
@@ -97,7 +98,7 @@ function Home() {
 				{/* About Text */}
 				<div className='about-text column-2'>
 					<p className='caption'>About Us</p>
-					<h2>OneQuantum Philippines</h2>
+					<h2>Quantum Computing Society of the Philippines</h2>
 					<p>Known globally as OneQuantum Philippines, QCSP is the leading community of academics, industry leaders, and quantum enthusiasts. Together, we're building a vibrant quantum ecosystem in the Philippines, fostering collaboration and innovation. Moving the quantum frontier, one qubit at a time. </p>
 					<div className='about-details'>
 						<div className='about-details-content' >
@@ -118,46 +119,46 @@ function Home() {
 			</div>
 
 			{/* ==== Detailed About Section ==== */}
-			<div className='center detailed-about-section width'>
-				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+			{/* <div className='center detailed-about-section width'> */}
+				{/* <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p> */}
 				{/* 3-Column Section */}
-				<div className='three-column'>
+				{/* <div className='three-column'> */}
 					{/* 1st Column */}
-					<div className='detailed-about-column text'>
-						<div className='detailed-about-point'>
+					{/* <div className='detailed-about-column text'> */}
+						{/* <div className='detailed-about-point'> */}
 							{/* Icon Here */}
-							<img className='icon' src={iconPlaceholder} alt='icon' />
-							<p>Lorem Ipsum</p>
-							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-						</div>
-						<div className='detailed-about-point'>
+							{/* <img className='icon' src={iconPlaceholder} alt='icon' /> */}
+							{/* <p>Lorem Ipsum</p> */}
+							{/* <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p> */}
+						{/* </div> */}
+						{/* <div className='detailed-about-point'> */}
 							{/* Icon Here */}
-							<img className='icon' src={iconPlaceholder} alt='icon' />
-							<p>Lorem Ipsum</p>
-							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-						</div>
-					</div>
+							{/* <img className='icon' src={iconPlaceholder} alt='icon' /> */}
+							{/* <p>Lorem Ipsum</p> */}
+							{/* <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p> */}
+						{/* </div> */}
+					{/* </div> */}
 					{/* 2nd Column */}
-					<div className='detailed-about-column'>
-						<img className='detailed-about-image' src={ detailedAboutImage } alt='About OneQuantum Philippines' />
-					</div>
+					{/* <div className='detailed-about-column'> */}
+						{/* <img className='detailed-about-image' src={ detailedAboutImage } alt='About OneQuantum Philippines' /> */}
+					{/* </div> */}
 					{/* 3rd Column */}
-					<div className='detailed-about-column text'>
-						<div className='detailed-about-point'>
+					{/* <div className='detailed-about-column text'> */}
+						{/* <div className='detailed-about-point'> */}
 							{/* Icon Here */}
-							<img className='icon' src={iconPlaceholder} alt='icon' />
-							<p>Lorem Ipsum</p>
-							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-						</div>
-						<div className='detailed-about-point'>
+							{/* <img className='icon' src={iconPlaceholder} alt='icon' /> */}
+							{/* <p>Lorem Ipsum</p> */}
+							{/* <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p> */}
+						{/* </div> */}
+						{/* // <div className='detailed-about-point'> */}
 							{/* Icon Here */}
-							<img className='icon' src={iconPlaceholder} alt='icon' />
-							<p>Lorem Ipsum</p>
-							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-						</div>
+							{/* <img className='icon' src={iconPlaceholder} alt='icon' /> */}
+							{/* <p>Lorem Ipsum</p> */}
+							{/* <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p> */}
+						{/* </div>
 					</div>
 				</div>
-			</div>
+			</div> */}
 
 			{/* ==== Collaboration Section ==== */}
 			<div className='collaboration section width' id='collaboration'>
