@@ -10,7 +10,7 @@ import logo from '../../assets/oqph-logo.png';
 function Navigation() {
   // Function for logo
   const toHome = () => {
-    window.location.href = '/test-repo'
+    window.location.href = '/'
   };
 
   return (
@@ -21,7 +21,7 @@ function Navigation() {
         {/* <a href='https://www.quantumcomputing.ph/workshop2024.html' target='_blank' rel='noreferrer'>Workshop</a> */}
         <Link to="/workshop">Workshop</Link>
       </div>
-        <Button text="Contact Us" color='gradient' target='collaboration' />
+        <Button text="Contact Us" color='gradient' target='facebook' />
     </div>
   );
 };
