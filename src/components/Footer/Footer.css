@@ -27,3 +27,8 @@
     height: 2rem;
     width: 2rem;
 }
+
+.socials-button:hover {
+    opacity: 0.5;
+    transition: opacity 0.2s ease;
+}

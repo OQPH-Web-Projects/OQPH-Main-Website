@@ -1,12 +1,12 @@
 .testimonial-container {
-    background: #400987;
+    background: #380974;
     border-radius: 20px;
     color: #ffffff;
     line-height: 150%;
     width: 100%;
     height: fit-content;
     padding: 2rem;
-    text-align: justify;
+    text-align: left;
 }
 
 .message-container {
