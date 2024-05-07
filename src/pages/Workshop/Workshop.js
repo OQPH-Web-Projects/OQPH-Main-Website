@@ -1,6 +1,6 @@
 import React from 'react';
-import { MapContainer, TileLayer, Marker, Popup, useMap } from 'react-leaflet';
 import 'leaflet/dist/leaflet.css';
+import { MapContainer, TileLayer, Marker, Popup, useMap } from 'react-leaflet';
 
 // Components
 import Navigation from '../../components/Navigation/Navigation';
@@ -15,7 +15,7 @@ import './Workshop.css';
 import animation from '../animation';
 
 export default function Workshop() {
-  const center = [52.22977, 21.01178];
+  const center = [14.2156, 121.0426]; // Coordinates of AUP Silang Cavite
 
   const committeeMembers = [
     {
@@ -117,7 +117,7 @@ export default function Workshop() {
           <p className='caption'>Venue</p>
           <h4>Adventist University of the Philippines, Silang Cavite</h4>
           <div className='venue-map'>
-            <MapContainer center={center} zoom={18} scrollWheelZoom={false}>
+            <MapContainer center={center} zoom={15} scrollWheelZoom={true}>
               <TileLayer
                 attribution='&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
                 url='https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png'
