@@ -1,21 +1,21 @@
 // Testimonial data to be displayed
 export const testimonialData = [
     {
-        message: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.',
+        message: 'I find the experiences and the knowledge gained from the event the most valuable because it opened my imagination to the potential applications and the unfamiliar ways of quantum computing... in the near future.',
         image: require('../assets/avatar.png'),
-        name: 'John Doe',
-        position: 'Professor at University X'
+        name: 'Anonymous',
+        position: 'University Student'
     },
     {
-        message: `As someone new to the world of quantum computing, I found the event to be a fantastic introduction to this exciting field. I'm grateful to One Quantum PH and all the expert guest speakers for their contributions to the event. The hands-on exercises and exposure to real-world applications were particularly beneficial, as they helped solidify my understanding of quantum computing concepts. I'm eager to continue learning and exploring quantum computing further, and I look forward to future events and opportunities to expand my knowledge.`,
+        message: `Even though quantum circuits is a difficult and heavy topic, the organizers managed to find a way to make it fun. Moreover, even though we aren't experts in quantum computing, we still managed to excel well in the event`,
         image: require('../assets/avatar.png'),
-        name: 'John Doe',
-        position: 'Professor at University X'
+        name: 'Anonymous',
+        position: 'University Student'
     },
     {
-        message: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.',
+        message: 'I enjoyed every single bit of the event. Everyone is so engaging and shared the excitement in the room. Overall, one of the best event to join! Highly recommended to anyone who is interested in... learning Quantum.',
         image: require('../assets/avatar.png'),
-        name: 'John Doe',
-        position: 'Professor at University X'
+        name: 'Anonymous',
+        position: 'University Student'
     }
 ];
