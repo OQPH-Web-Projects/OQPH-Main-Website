@@ -8,13 +8,19 @@
     color: #AD64F7;
 }
 
-.about-workshop {
+.workshop-section {
+    margin: 6.25rem 0;
+}
+
+.about-workshop,
+.abstract-submission {
     display: flex;
     flex-direction: column;
     row-gap: 2rem;
 }
 
-.about-workshop-content {
+.about-workshop-content,
+.abstract-submission-content {
     font-size: large;
     display: flex;
     flex-direction: column;

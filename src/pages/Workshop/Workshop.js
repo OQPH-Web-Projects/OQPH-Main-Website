@@ -26,7 +26,8 @@ export default function Workshop() {
                 {/* <Footer /> */}
             </div>
 
-            <div className='about-workshop'>
+            <section className='workshop-section'>  
+              <div className='about-workshop'>
                 <p className='caption'>About the Workshop</p>
                 <div className='about-workshop-content hidden'>
                     <p className='about-workshop-content'>
@@ -36,12 +37,41 @@ export default function Workshop() {
                     We hope to provide a friendly atmosphere during the workshop for individuals or group of individuals to share their output and experiences working on quantum computing. This maiden workshop aims to prepare participants in understanding and appreciation of the power of quantum computing through a short tutorial on quantum algorithm and programming.
                     </p>
                 </div>
-            </div>
-            <div className='workshop-buttons'>
-                <a href='https://docs.google.com/forms/d/e/1FAIpQLSftBHUVEBP8WiiFbRQA7dDDLvRUFuEALdTDBxJdBW_bN2y-Xg/viewform' target='_blank' rel='noreferrer'>
-                    <Button text='Register Now' color='gradient' target='registration' />
-                </a>
-            </div>
+                <div className='workshop-buttons'>
+                    <a href='https://docs.google.com/forms/d/e/1FAIpQLSftBHUVEBP8WiiFbRQA7dDDLvRUFuEALdTDBxJdBW_bN2y-Xg/viewform' target='_blank' rel='noreferrer'>
+                        <Button text='Register Now' color='gradient' target='registration' />
+                    </a>
+                </div>
+              </div>
+            </section>
+
+            <section className='workshop-section'>
+                <div className='abstract-submission'>
+                    <p className='caption'>Submission of Abstract</p>
+                    <div className='abstract-submission-content'>
+                        <p className='abstract-submission-content'>
+                            We invite everyone who have been working on quantum computing to submit 
+                            an Extended Abstract of their work with at most three (3) pages long. 
+                            The Extended Abstract must contain (a) the problem you intend to consider/solve in your work; 
+                            (b) quantum computing technique you used in solving the problem; (c) the results of your computation/simulations, 
+                            and (d) finally your conclusion. Please use the following template for the Extended Abstract, 
+                            which can be obtained from here. 
+                        </p>
+                        <p className='abstract-submission-content'>
+                            We invite submissions of works-in-progress, interactive / simulation demos, 
+                            and position papers that contribute to the advancement of Quantum Information, Communication, and Technology (QICT) 
+                            research in the Philippines.
+                        </p>
+                    </div>
+                </div>
+                <div className='workshop-buttons'>
+                    <a href=''>
+                        <Button text='Submit' color='gradient' target='/' />
+                    </a>
+                </div>
+            </section>
+
+
 
             <div className='speaker-section'>
                 <div>
