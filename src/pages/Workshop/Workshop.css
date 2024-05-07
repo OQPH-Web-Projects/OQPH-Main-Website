@@ -36,3 +36,21 @@
 .workshop-buttons button {
     margin-top: 2rem; 
 }
+
+.speaker-section {
+    align-items: center;
+    height: 100dvh;
+    display: flex;
+    flex-direction: row;
+    column-gap: 2rem;
+}
+
+.speaker-section div:nth-child(1) {
+    width: 90%;
+}
+
+.speaker-section div:nth-child(2) {
+    display: flex;
+    flex-direction: column;
+    row-gap: 1rem;
+}

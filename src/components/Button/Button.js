@@ -5,6 +5,8 @@ function Button({ text, color, target }) {
   const handleClick = () => {
     if (target === 'contact') {
       window.open('https://www.quantumcomputing.ph/contact.html', '_blank');
+    } else if (target === 'facebook') {
+      window.open('https://www.facebook.com/onequantum.ph', '_blank');
     } else {
       scrollToSection();
     }
