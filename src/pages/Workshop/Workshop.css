@@ -54,3 +54,15 @@
     flex-direction: column;
     row-gap: 1rem;
 }
+
+
+@media screen and (max-width: 500px) {
+    .speaker-section {
+        flex-direction: column;
+    }
+
+    .speaker-section div:nth-child(1),
+    .speaker-section div:nth-child(2) {
+        width: 100%;
+    }
+}

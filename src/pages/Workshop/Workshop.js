@@ -27,28 +27,28 @@ export default function Workshop() {
             </div>
 
             <section className='workshop-section'>  
-              <div className='about-workshop'>
-                <p className='caption'>About the Workshop</p>
-                <div className='about-workshop-content hidden'>
-                    <p className='about-workshop-content'>
-                    This workshop intends to introduce the computing community in the country to Quantum Computing. The main goal of the workshop is to put together in one venue individuals who are working on, interested in, and curious about quantum computing, its power to solve interesting problems and its limitations. 
-                    </p>
-                    <p className='about-workshop-content'>
-                    We hope to provide a friendly atmosphere during the workshop for individuals or group of individuals to share their output and experiences working on quantum computing. This maiden workshop aims to prepare participants in understanding and appreciation of the power of quantum computing through a short tutorial on quantum algorithm and programming.
-                    </p>
+                <div className='about-workshop'>
+                    <p className='caption'>About the Workshop</p>
+                    <div className='about-workshop-content hidden'>
+                        <p className='about-workshop-content'>
+                        This workshop intends to introduce the computing community in the country to Quantum Computing. The main goal of the workshop is to put together in one venue individuals who are working on, interested in, and curious about quantum computing, its power to solve interesting problems and its limitations. 
+                        </p>
+                        <p className='about-workshop-content'>
+                        We hope to provide a friendly atmosphere during the workshop for individuals or group of individuals to share their output and experiences working on quantum computing. This maiden workshop aims to prepare participants in understanding and appreciation of the power of quantum computing through a short tutorial on quantum algorithm and programming.
+                        </p>
+                    </div>
+                    <div className='workshop-buttons'>
+                        <a href='https://docs.google.com/forms/d/e/1FAIpQLSftBHUVEBP8WiiFbRQA7dDDLvRUFuEALdTDBxJdBW_bN2y-Xg/viewform' target='_blank' rel='noreferrer'>
+                            <Button text='Register Now' color='gradient' target='registration' />
+                        </a>
+                    </div>
                 </div>
-                <div className='workshop-buttons'>
-                    <a href='https://docs.google.com/forms/d/e/1FAIpQLSftBHUVEBP8WiiFbRQA7dDDLvRUFuEALdTDBxJdBW_bN2y-Xg/viewform' target='_blank' rel='noreferrer'>
-                        <Button text='Register Now' color='gradient' target='registration' />
-                    </a>
-                </div>
-              </div>
             </section>
 
             <section className='workshop-section'>
                 <div className='abstract-submission'>
                     <p className='caption'>Submission of Abstract</p>
-                    <div className='abstract-submission-content'>
+                    <div className='abstract-submission-content hidden'>
                         <p className='abstract-submission-content'>
                             We invite everyone who have been working on quantum computing to submit 
                             an Extended Abstract of their work with at most three (3) pages long. 
@@ -65,8 +65,8 @@ export default function Workshop() {
                     </div>
                 </div>
                 <div className='workshop-buttons'>
-                    <a href=''>
-                        <Button text='Submit' color='gradient' target='/' />
+                    <a href='https://bit.ly/QCWorkshop2024abstractsubmission'>
+                        <Button text='Submit' color='gradient' />
                     </a>
                 </div>
             </section>
