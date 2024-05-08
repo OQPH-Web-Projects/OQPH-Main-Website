@@ -5,12 +5,12 @@ export const questionData = [
         answer:'Anyone with an interest in quantum computing, regardless of background or expertise, is welcome to join OneQuantum Philippines. Whether you`re a student, researcher, educator, industry professional, or simply curious about the field, there`s a place for you in our community.'
     },
     {
-        question: 'What activities does OneQuantum Philippines organize?', 
-        answer:'OneQuantum Philippines organizes a wide range of activities, including workshops, lectures, networking events, hackathons, and community outreach programs. These activities are designed to educate, inspire, and connect individuals interested in quantum computing and its applications.'
+        question: 'What are the benefits of joining OneQuantum Philippines/Quantum Computing Society of the Philippine events?', 
+        answer:'We are providing lectures, webinars, workshops, and hackathons with the most relevant developments, disocveries, and standards in the field of Quantum Computing. By joining our programs, you will be able to explore the most recent opportunities in Quantum Computing locally and internationally including learning, networking, and exposure to hands-on activities.'
     }, 
     {
-        question: 'How can I get involved with OneQuantum Philippines?',
-        answer: 'There are several ways to get involved with OneQuantum Philippines. You can become a member of our community, attend our events, volunteer for our programs, contribute to our projects, or even start your own initiative within the organization. Whatever your interests and skills may be, there`s a place for you to make a meaningful impact.'
+        question: 'I am interested to volunteer, how can I know if I am eligible?',
+        answer: 'All interested participants are welcome to join our programs whether you are a student, seasoned professional, enthusiast, researcher, or just a curious cat as long as you have the passion to bring quantum education closer to the people. To receive latest updates about next Cohort opening, like and subscribe our official social media platforms.'
     },
     {
         question: 'Is there a membership fee to join OneQuantum Philippines?',
