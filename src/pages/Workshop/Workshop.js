@@ -21,33 +21,47 @@ export default function Workshop() {
     {
       name: 'Jeffrey Aborot',
       affiliation: 'Advanced Science, and Technology Institute - DOST',
+      image: require('../../assets/Workshop-images/jeffrey-aborot.jpg'),
     },
     {
       name: 'Henry Adorna',
       affiliation: 'University of the Philippines Diliman (co-Chair)',
+      image: require('../../assets/Workshop-images/henry-adorna.png'),
+
     },
     {
       name: 'Richard Bryann Chua',
       affiliation: ' University of the Philippines Manila',
+      image: require('../../assets/Workshop-images/richard-bryan-chua.jpg'),
     },
-    { name: 'Bobby Corpus	', affiliation: 'One Quantum PH (co-Chair)' },
+    { name: 'Bobby Corpus	', 
+      affiliation: 'One Quantum PH (co-Chair)', 
+      image: require('../../assets/Workshop-images/bobby-corpus.png') 
+    },
     {
       name: 'Eric Galapon',
       affiliation: 'National Institute of Physics',
+      image: require('../../assets/Workshop-images/eric-galapon.jpg'),
     },
     {
       name: 'Lucky Galvez',
       affiliation: 'Institute of Mathematics, UPDiliman',
+      image: require('../../assets/Workshop-images/lucky-galvez.jpg'),
     },
     {
       name: 'Dylan Josh Lopez',
       affiliation: 'Chung Yuan Christian University',
+      image: require('../../assets/Workshop-images/dylan-josh-lopez.png'),
     },
     {
       name: 'Elmer Peramo',
       affiliation: 'Advanced Science, and Technology Institute - DOST',
+      image: require('../../assets/Workshop-images/elmer-peramo.png'),
     },
-    { name: 'Jacqui Romero', affiliation: 'The University of Queensland' },
+    { name: 'Jacqui Romero', 
+      affiliation: 'The University of Queensland',
+      image: require('../../assets/Workshop-images/jacquiline-romero.png'),
+     },
   ];
   const pillData = [
     { time: '07:00', program: 'Registration and Welcome Coffee' },
@@ -96,7 +110,8 @@ export default function Workshop() {
               algorithm and programming.
             </p>
           </div>
-          <div className='workshop-buttons'>
+        </div>
+        <div className='workshop-buttons'>
             <a
               href='https://docs.google.com/forms/d/e/1FAIpQLSftBHUVEBP8WiiFbRQA7dDDLvRUFuEALdTDBxJdBW_bN2y-Xg/viewform'
               target='_blank'
@@ -109,7 +124,6 @@ export default function Workshop() {
               />
             </a>
           </div>
-        </div>
       </section>
 
       <section className='workshop-venue-wrapper'>
@@ -117,7 +131,7 @@ export default function Workshop() {
           <p className='caption'>Venue</p>
           <h4>Adventist University of the Philippines, Silang Cavite</h4>
           <div className='venue-map'>
-            <MapContainer center={center} zoom={15} scrollWheelZoom={true}>
+            <MapContainer center={center} zoom={15} scrollWheelZoom={true} maxZoom={17} minZoom={11}>
               <TileLayer
                 attribution='&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
                 url='https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png'
@@ -139,7 +153,7 @@ export default function Workshop() {
 
       <div className='speaker-section'>
         <div>
-          <img alt='keynote speaker' />
+          <img src={require('../../assets/Workshop-images/david-earl-robles.jpeg')} alt='David Earl Robles' />
         </div>
         <div className='hidden'>
           <p className='caption'>our keynote speaker</p>
@@ -170,7 +184,7 @@ export default function Workshop() {
           <div className='program-committee-members'>
             {committeeMembers.map((member, index) => (
               <div className='committee-member' key={index}>
-                <img src='your-image-path.jpg' alt='picture' />
+                <img src={member.image} alt={member.name} />
                 <div className='text-container'>
                   <p className='committee-member-name'>{member.name}</p>
                   <p className='committee-member-affiliation'>
