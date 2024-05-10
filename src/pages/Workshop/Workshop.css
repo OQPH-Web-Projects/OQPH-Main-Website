@@ -207,3 +207,19 @@
   height: 65vh;
   width: 100%;
 }
+
+@media screen and (max-width: 500px) {
+  .pills-container {
+    flex-direction: column;
+  }
+  .speaker-section {
+    flex-direction: column;
+  }
+  .speaker-section div:nth-child(1),
+  .speaker-section div:nth-child(2) {
+    width: 100%;
+  }
+  .leaflet-container {
+    height: 50vh;
+  }
+}
