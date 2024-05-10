@@ -76,6 +76,7 @@ export default function Workshop() {
     { time: '05:00', program: 'End' },
   ];
 
+
   animation('.hidden');
 
   return (
