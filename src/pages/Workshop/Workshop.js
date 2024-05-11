@@ -221,8 +221,8 @@ export default function Workshop() {
           </div>
         </div>
         <div className='workshop-buttons'>
-          <a href=''>
-            <Button text='Submit' color='gradient' target='/' />
+          <a href='https://docs.google.com/forms/d/e/1FAIpQLSf35_xsmssHeQrdROY3iEcrx-IBAS5crnGvzR-8oPXByUWUSA/viewform'>
+            <Button text='Submit' color='gradient' target='_blank' rel='noferrer' />
           </a>
         </div>
       </section>
