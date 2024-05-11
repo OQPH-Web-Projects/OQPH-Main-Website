@@ -209,7 +209,7 @@
 }
 
 /* Media Queries */
-@media screen and (max-width: 1020px) {
+@media screen and (max-width: 1050px) {
   .workshop-container,
   .pills-container,
   .program-flow-wrapper {
@@ -234,24 +234,26 @@
   .pills-container {
     flex-direction: column;
   }
+  .pill {
+    width: 300px;
+    text-align: left;
+  }
   .workshop-container {
     width: 80%;
+  }
+  .leaflet-container {
+    height: 35vh;
   }
   .speaker-section {
     text-align: center;
     flex-direction: column;
-    gap: 2rem;
+    gap: 3rem;
     height: auto;
-    margin: 5rem 0;
+    
   }
   .program-committee-wrapper,
   .program-committee {
     flex-direction: column;
     height: auto;
-  }
- 
-  .workshop-venue {
-    flex-direction: column;
-    margin: 5rem 0;
   }
 }
