@@ -8,6 +8,9 @@ import Partnership from '../../components/Partnership/Partnership';
 import Question from '../../components/Question/Question';
 import Footer from '../../components/Footer/Footer';
 
+// Animation
+import animation from '../animation';
+
 // CSS files
 import '../global.css';
 import './Home.css';
@@ -32,6 +35,8 @@ import { partnershipData } from '../../data/partnershipData';
 import { questionData } from '../../data/questionData';
 
 function Home() {
+	animation('.hidden');
+
 	return (
 		<div className='home-container'>
 			<Navigation />
@@ -40,9 +45,9 @@ function Home() {
 
 			{/* ==== Hero Section ==== */}
 			<div className='hero section'>
-				<h1>OneQuantum Philippines</h1>
-				<p>Empowering Filipino Talents in Quantum Science and Technologies.</p>
-				<div className='hero-cta'>
+				<h1 className='hidden'>OneQuantum Philippines</h1>
+				<p className='hidden'>Empowering Filipino Talents in Quantum Science and Technologies.</p>
+				<div className='hero-cta hidden'>
 					<Button text='Join Us' color='gradient' target='collaboration' />
 					<Button text='Learn More' color='outline' target='about' />
 				</div>
@@ -52,7 +57,7 @@ function Home() {
 			<div className='credibility center width'>
 				{/* Partnered Orgs */}
 				<div className='partnered-orgs'>
-					<p>Our nationwide programs are made possible through the support of:</p>
+					<p className='hidden'>Our nationwide programs are made possible through the support of:</p>
 					<div className='orgs'>
 						<div className='orgs-carousel'>
 							<img className='orgs-logo' src={backendNews} alt='logo' />
@@ -95,10 +100,10 @@ function Home() {
 				<div className='testimonials'>
 					<div className='testimonial-text'>
 						<p className='caption'>Testimonials</p>
-						<h2>Hear what our community says</h2>
+						<h2 className='hidden'>Hear what our community says</h2>
 						{/* <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod</p> */}
 					</div>
-					<div className='testimonial-cards'>
+					<div className='testimonial-cards hidden'>
 						{
 							testimonialData.map((data, index) =>
 								<Testimonial data={ data } key={ index } />
@@ -115,9 +120,9 @@ function Home() {
 				{/* About Text */}
 				<div className='about-text column-2'>
 					<p className='caption'>About Us</p>
-					<h2>Quantum Computing Society of the Philippines</h2>
-					<p>Known globally as OneQuantum Philippines, QCSP is the leading community of academics, industry leaders, and quantum enthusiasts. Together, we're building a vibrant quantum ecosystem in the Philippines, fostering collaboration and innovation. Moving the quantum frontier, one qubit at a time. </p>
-					<div className='about-details'>
+					<h2 className='hidden'>Quantum Computing Society of the Philippines</h2>
+					<p className='hidden'>Known globally as OneQuantum Philippines, QCSP is the leading community of academics, industry leaders, and quantum enthusiasts. Together, we're building a vibrant quantum ecosystem in the Philippines, fostering collaboration and innovation. Moving the quantum frontier, one qubit at a time. </p>
+					<div className='about-details hidden'>
 						<div className='about-details-content' >
 							<img className='icon' src={iconPlaceholder} alt='icon' />
 							<p><strong>Researchers</strong>: Collaborate, share knowledge, and accelerate discoveries with QCSP. Push the boundaries of quantum science together.</p>
@@ -180,9 +185,9 @@ function Home() {
 			{/* ==== Collaboration Section ==== */}
 			<div className='collaboration section width' id='collaboration'>
 				<p className='caption'>Collaborations</p>
-				<h2 className='title'>Help us bring world-class programs nationwide:</h2>
+				<h2 className='title hidden'>Help us bring world-class programs nationwide:</h2>
 				{/* Partnership CTAs */}
-				<div className='partnership-container'>
+				<div className='partnership-container hidden'>
 					{
 						partnershipData.map((data, index) => 
 							<Partnership data={ data } key={ index } />
@@ -194,7 +199,7 @@ function Home() {
 			{/* ==== FAQs ==== */}
 			<div className='questions section width'>
 				<p className='caption'>Frequently Asked Questions</p>
-				<h2 className='title'>FAQs</h2>
+				<h2 className='title hidden'>FAQs</h2>
 				<Question questions={questionData}/>
 			</div>
 
