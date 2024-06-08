@@ -125,7 +125,7 @@
 
 .orgs {
     position: relative;
-    background-color: #400987;
+    background-color: #380974;
     width: min(100%, 1065px);
     border-radius: 1.25rem;    
     padding: 2rem;
@@ -136,7 +136,7 @@
 .orgs::before {
     position: absolute;
     content: '';
-    background: linear-gradient(to left, transparent, #400987);
+    background: linear-gradient(to left, transparent, #380974);
     top: 0;
     left: 0;
     height: 100%;
@@ -147,7 +147,7 @@
 .orgs::after {
     position: absolute;
     content: '';
-    background: linear-gradient(to right, transparent, #400987);
+    background: linear-gradient(to right, transparent, #380974);
     top: 0;
     right: 0;
     height: 100%;
