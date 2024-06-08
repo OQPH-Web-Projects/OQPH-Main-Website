@@ -99,6 +99,20 @@
     row-gap: 2rem;
 }
 
+.banners {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 3rem 0;
+}
+
+.banners-text {
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    row-gap: 2rem;
+}
 
 @keyframes carousel {
     from{
