@@ -13,6 +13,7 @@ import '../global.css';
 import './Home.css';
 
 // Images
+import quantumImage from '../../assets/orgs/quantumImage.png';
 import aboutImage from '../../assets/about-image.png';
 // import detailedAboutImage from '../../assets/detailed-about-image.png';
 import iconPlaceholder from '../../assets/icon-placeholder.png';
@@ -74,6 +75,22 @@ function Home() {
 					</div>
 					
 				</div>
+
+			{/* ==== Featured Banners Section ==== */}
+			<div className='banners two-column section width' id='banners'>
+				{/* Quantum 2025 Image */}
+				<div className='column-1'><img src={ quantumImage } alt='Quantum2025' /></div>
+				{/* About Text */}
+				<div className='banners-text column-2'>
+						<p>	
+						Today, the United Nations declared 2025 as the International Year of Quantum Science and Technology. 
+						This year-long, worldwide initiative will celebrate the contributions of Quantum Science to technological 
+						progress over the past century, raise global awareness of its importance to Sustainable Development in the 
+						21st century, and ensure that all nations have access to quantum education and opportunities. 
+						</p>
+					{/* <Button text='Learn More' color='gradient' target='' /> */}
+				</div>
+			</div>
 
 				<div className='testimonials'>
 					<div className='testimonial-text'>
