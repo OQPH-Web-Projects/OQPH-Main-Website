@@ -93,7 +93,9 @@ function Home() {
 						progress over the past century, raise global awareness of its importance to Sustainable Development in the 
 						21st century, and ensure that all nations have access to quantum education and opportunities. 
 						</p>
-					{/* <Button text='Learn More' color='gradient' target='' /> */}
+						<a href="https://onequantumphilippines.substack.com/p/quantum-for-every-juan-qcsp-gears?r=2gez63&triedRedirect=true" target="_blank" rel="noopener noreferrer">
+							<Button text='Learn More' color='gradient' />
+						</a>
 				</div>
 			</div>
 
