@@ -82,11 +82,11 @@ function Home() {
 				</div>
 
 			{/* ==== Featured Banners Section ==== */}
-			<div className='banners two-column section width' id='banners'>
+			<div className='banners two-column section width hidden' id='banners'>
 				{/* Quantum 2025 Image */}
-				<div className='column-1'><img src={ quantumImage } alt='Quantum2025' /></div>
+				<div className='column-1 hidden'><img src={ quantumImage } alt='Quantum2025' /></div>
 				{/* About Text */}
-				<div className='banners-text column-2'>
+				<div className='banners-text column-2 hidden'>
 						<p>	
 						Today, the United Nations declared 2025 as the International Year of Quantum Science and Technology. 
 						This year-long, worldwide initiative will celebrate the contributions of Quantum Science to technological 
