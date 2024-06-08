@@ -11,7 +11,7 @@ function Testimonial({ data }) {
           <p className='message'>{ data.message }</p>
         </div>
         <div className='profile-container'>
-            <img src={ data.image } alt='Testimonial Profile' />
+            {/* <img src={ data.image } alt='Testimonial Profile' /> */}
             <div className='text-container'>
                 <p className='subheading'>{ data.name }</p>
                 <p>{ data.position }</p>
