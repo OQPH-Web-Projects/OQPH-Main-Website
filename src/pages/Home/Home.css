@@ -100,9 +100,25 @@
 }
 
 .banners {
-    padding: 4rem 2rem 4rem 0rem;
+    padding: 4rem 2.5rem 4rem 0rem;
     display: flex;
+    background: linear-gradient(to right, #320b66, #420e87da, #72158ef9); ;
+    border-radius: 1.25rem;
 }
+
+.banners button {
+    background: white;
+    border-radius: 1rem;
+    color: black;
+    border: none;
+}
+
+#banners {
+    min-height: 30dvh;
+    margin-top: 6rem;
+    margin-bottom: 6rem;
+}
+
 
 .banners-text {
     text-align: left;
@@ -144,7 +160,7 @@
 .orgs::after {
     position: absolute;
     content: '';
-    background: linear-gradient(to right, transparent, #380974);
+    background: linear-gradient(to right, transparent, #340a59e7);
     top: 0;
     right: 0;
     height: 100%;
