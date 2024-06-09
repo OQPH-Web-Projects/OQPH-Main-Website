@@ -108,7 +108,7 @@
 }
 
 .banners {
-    padding: 4rem 2.5rem 4rem 0rem;
+    padding: 4rem 2.8rem 4rem 0rem;
     display: flex;
     background: linear-gradient(to right, #320b66, #420e87da, #72158ef9);
     border-radius: 1.25rem;
@@ -304,6 +304,13 @@
         height: 450px;
         width: auto;
     }
+    .banners {
+        row-gap: 2rem;
+        padding: 2rem;
+    }
+    .featured-title {
+        text-align: center;
+    }
 }
 
 @media screen and (max-width: 450px) {
@@ -311,7 +318,13 @@
         flex-direction: column;
         row-gap: 1rem;
     }
-
+    .banners {
+        row-gap: 2rem;
+        padding: 2rem;
+    }
+    .featured-title {
+        text-align: center;
+    }
     .detailed-about-image {
         height: auto;
         width: 100%;
