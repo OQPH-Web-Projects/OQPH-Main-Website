@@ -56,7 +56,7 @@ function Home() {
 			{/* ==== Featured Banners Section ==== */}
 			<div className='featured-title'> 
 				<p className='caption hidden'>Featured News</p>
-				<h3 className='hidden'>Quantum for Every Juan</h3>
+				<h2 className='hidden'>Quantum for Every Juan</h2>
 			</div>
 
 			<div className='banners two-column section width hidden' id='banners'>
