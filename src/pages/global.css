@@ -28,35 +28,35 @@ body {
 }
 
 h1 {
-    font: 700 2rem "Lexend", sans-serif;
+    font: 500 2rem "Lexend", sans-serif;
     @media (min-width: 768px) { /* Tablet and Desktop */
-        font: 700 3rem "Lexend", sans-serif;
+        font: 500 3rem "Lexend", sans-serif;
     }
 }
 
 h2 {
-    font: 700 1.5rem "Lexend", sans-serif;
+    font: 600 1.5rem "Lexend", sans-serif;
     @media (min-width: 768px) { /* Tablet and Desktop */
-        font-size: 2.5rem;
+        font-size: 2.3rem;
     }
 }
 
 h3 {
-    font: 700 1.125rem "Lexend", sans-serif;
+    font: 500 1.125rem "Lexend", sans-serif;
     @media (min-width: 768px) { /* Tablet and Desktop */
         font-size: 2rem;
     }
 }
 
 h4 {
-    font: 700 0.875rem "Lexend", sans-serif;
+    font: 500 0.875rem "Lexend", sans-serif;
     @media (min-width: 768px) { /* Tablet and Desktop */
         font-size: 1.5rem;
     }
 }
 
 p {
-    font: 400 1rem "Nunito Sans", sans-serif;
+    font: 500 1rem "Nunito Sans", sans-serif;
 }
 
 a {

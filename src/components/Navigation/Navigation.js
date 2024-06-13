@@ -17,9 +17,11 @@ function Navigation() {
     <div className='nav'>
       <div>
         <img className='logo' src={ logo } alt='OneQuantum Philippines' onClick={ toHome } />
+        <a href="#about">About</a>
         <a href='https://www.quantumcomputing.ph/' target='_blank' rel='noreferrer'>Blog</a>
         {/* <a href='https://www.quantumcomputing.ph/workshop2024.html' target='_blank' rel='noreferrer'>Workshop</a> */}
         <Link to="/workshop">Workshop</Link>
+        {/* <Link to="/resources">Resources</Link> */}
       </div>
         <Button text="Contact Us" color='gradient' target='facebook' />
     </div>

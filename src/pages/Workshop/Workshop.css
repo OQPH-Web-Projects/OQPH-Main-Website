@@ -249,11 +249,27 @@
     flex-direction: column;
     gap: 3rem;
     height: auto;
-    
   }
+  .speaker-section img {
+    width: 220px;
+    height: 220px;
+  }
+
   .program-committee-wrapper,
   .program-committee {
     flex-direction: column;
     height: auto;
+  }
+}
+
+@media screen and (max-width: 475px) {
+  .leaflet-container {
+    height: 30vh;
+  }
+  .workshop-venue {
+    row-gap: 0.8rem;;
+  }
+  p {
+    font-size: 0.9rem;
   }
 }

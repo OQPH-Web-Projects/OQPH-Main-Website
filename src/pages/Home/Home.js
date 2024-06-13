@@ -53,6 +53,31 @@ function Home() {
 				</div>
 			</div>
 
+			{/* ==== Featured Banners Section ==== */}
+			<div className='featured-title'> 
+				<p className='caption hidden'>Featured News</p>
+				<h2 className='hidden'>Quantum for Every Juan</h2>
+			</div>
+
+			<div className='banners two-column section width hidden' id='banners'>
+				{/* Quantum 2025 Image */}
+				<div className='column-1 hidden'><img src={ quantumImage } alt='Quantum2025' /></div>
+				{/* About Text */}
+				<div className='banners-text column-2 hidden'>
+						<p>	
+						Today, the United Nations declared 2025 as the International Year of Quantum Science and Technology. 
+						This year-long, worldwide initiative will celebrate the contributions of Quantum Science to technological 
+						progress over the past century, raise global awareness of its importance to Sustainable Development in the 
+						21st century, and ensure that all nations have access to quantum education and opportunities. 
+						</p>
+						<div className='banner-buttons'>
+							<a href="https://onequantumphilippines.substack.com/p/quantum-for-every-juan-qcsp-gears?r=2gez63&triedRedirect=true" target="_blank" rel="noopener noreferrer">
+								<Button text='Learn More' color='gradient' />
+							</a>
+						</div>
+				</div>
+			</div>
+
 			{/* ==== Credibility Section ==== */}
 			<div className='credibility center width'>
 				{/* Partnered Orgs */}
@@ -81,21 +106,6 @@ function Home() {
 					
 				</div>
 
-			{/* ==== Featured Banners Section ==== */}
-			<div className='banners two-column section width hidden' id='banners'>
-				{/* Quantum 2025 Image */}
-				<div className='column-1 hidden'><img src={ quantumImage } alt='Quantum2025' /></div>
-				{/* About Text */}
-				<div className='banners-text column-2 hidden'>
-						<p>	
-						Today, the United Nations declared 2025 as the International Year of Quantum Science and Technology. 
-						This year-long, worldwide initiative will celebrate the contributions of Quantum Science to technological 
-						progress over the past century, raise global awareness of its importance to Sustainable Development in the 
-						21st century, and ensure that all nations have access to quantum education and opportunities. 
-						</p>
-					{/* <Button text='Learn More' color='gradient' target='' /> */}
-				</div>
-			</div>
 
 				<div className='testimonials'>
 					<div className='testimonial-text'>
