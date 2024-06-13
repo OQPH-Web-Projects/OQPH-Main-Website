@@ -27,6 +27,7 @@ import ibmQuantum from '../../assets/orgs/ibm-quantum.png';
 import msuIitCcs from '../../assets/orgs/msu-iit-ccs-ec.png';
 import qil from '../../assets/orgs/qil.png';
 import usc from '../../assets/orgs/usc.png';
+import orb from '../../assets/orb.png'
 
 
 // Data files to display
@@ -38,11 +39,10 @@ function Home() {
 	animation('.hidden');
 
 	return (
+		<>
 		<div className='home-container'>
 			<Navigation />
-
 			<div className='background'></div>
-
 			{/* ==== Hero Section ==== */}
 			<div className='hero section'>
 				<h1 className='hidden'>OneQuantum Philippines</h1>
@@ -204,8 +204,13 @@ function Home() {
 			</div>
 
 			<Footer />
-
 		</div>
+
+		{/* Background Glow effects */}
+		<img src={orb} className='orb orb-1'/>
+		<img src={orb} className='orb orb-2'/>
+		<img src={orb} className='orb orb-3'/>
+		</>
 	);
 };
 
