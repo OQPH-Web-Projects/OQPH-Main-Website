@@ -207,7 +207,6 @@ function Home() {
 		</div>
 
 		{/* Background Glow effects */}
-		<img src={orb} className='orb orb-1'/>
 		<img src={orb} className='orb orb-2'/>
 		<img src={orb} className='orb orb-3'/>
 		</>
