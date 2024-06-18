@@ -10,13 +10,12 @@
     <a href="https://www.onequantum.ph/">OneQuantum Philippines</a> is the official website for the Quantum Computing Society of the Philippines, a Nonprofit Organization aiming to empower Filipino talents in Quantum Science and Technologies.
 </h4>
 
----
-
-<!-- <p align="center">
-    <a href="#development">Development</a>
-    <a href="#development">Development</a>
-    <a href="#development">Development</a>
-</p> -->
+<p align="center">
+    <a href="#development">Development</a> •
+    <a href="#tech-stack">Tech stack</a> •
+    <a href="#contact">Contact Us</a> •
+    <a href="#license">License</a>
+</p>
 
 ### Prerequisites
 
@@ -40,6 +39,20 @@ $ npm install
 $ npm start
 
 ```
+## Tech stack
+
+| Project      | Home Page                                    |
+|--------------|----------------------------------------------|
+| Express      | <https://expressjs.com/>                     |
+| React        | <https://reactjs.org/>                       |
+| Node       | <https://nodejs.org/en>                  |
+| Deployed with Vercel    | <https://vercel.com/>                  |
 
 
----
+## Contact
+
+For any questions, please contact us through this [form](https://www.quantumcomputing.ph/contact.html).
+
+## License
+
+This project is licensed under the [MIT](https://github.com/git/git-scm.com/blob/main/MIT-LICENSE.txt) license.
