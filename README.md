@@ -1,13 +1,17 @@
 <h1 align="center">
     <br>
-    <a href="https://www.onequantum.ph/"><img src="https://raw.githubusercontent.com/OneQuantumPH/OneQuantum-Philippines/main/src/assets/oqph-full-logo.png" alt="OneQuantum Philippines" width="150"></a>
+    <picture>
+        <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/OneQuantumPH/OneQuantum-Philippines/main/src/assets/oqph-full-logo.png" width="150">
+        <img src="https://raw.githubusercontent.com/OneQuantumPH/OneQuantum-Philippines/main/src/assets/oqph-full-logo-light-mode.png" alt="OneQuantum Philippines" width="150">
+    </picture>
     <br>
     OneQuantum Philippines
     <br>
 </h1>
 
+
 <h4 align="center">
-    <a href="https://www.onequantum.ph/">OneQuantum Philippines</a> is the official website for the Quantum Computing Society of the Philippines, a Nonprofit Organization aiming to empower Filipino talents in Quantum Science and Technologies.
+    <a href="https://www.onequantum.ph/">onequantum.ph</a> is the official website for the Quantum Computing Society of the Philippines, a Nonprofit Organization aiming to empower Filipino talents in Quantum Science and Technologies.
 </h4>
 
 <p align="center">
