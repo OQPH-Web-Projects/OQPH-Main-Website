@@ -7,6 +7,7 @@ import Testimonial from '../../components/Testimonial/Testimonial';
 import Partnership from '../../components/Partnership/Partnership';
 import Question from '../../components/Question/Question';
 import Footer from '../../components/Footer/Footer';
+import Newsletter from '../../components/Newsletter/Newsletter';
 
 // Animation
 import animation from '../animation';
@@ -204,6 +205,11 @@ function Home() {
 						)
 					}
 				</div>
+			</div>
+
+			{/* Newsletter */}
+			<div className='newsletter hidden'>
+				<Newsletter	/>
 			</div>
 
 			{/* ==== FAQs ==== */}

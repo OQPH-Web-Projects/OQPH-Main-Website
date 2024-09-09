@@ -196,7 +196,7 @@
 }
 
 #about {
-    padding: 3rem 0;
+    padding: 3rem 2rem;
 }
 
 .about-text {  /*  About Us Section  */
@@ -257,6 +257,10 @@
     justify-content: center;
 }
 
+.newsletter {
+    background-color: #2f0e5bfb;
+    border-radius: 1.25rem;
+}
 
 /* 3. Media Queries
 ======================================== */
