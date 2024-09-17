@@ -27,7 +27,7 @@
 
 ## Development
 
-To run this project locally, follow these steps:
+To run this project locally with both the backend and frontend servers, follow these steps:
 
 ```bash
 # Clone this repository
@@ -39,10 +39,14 @@ $ cd OneQuantum-Philippines
 # Install dependencies
 $ npm install
 
-# Start the development server
-$ npm start
+# Start the backend server (Open a new terminal window or tab, then navigate to the backend folder and start the backend server)
+$ cd backend
+$ node server.js
 
+# Start the development server (In another terminal window or tab, ensure you're in the main project directory and start the development server)
+$ npm start
 ```
+
 ## Tech stack
 
 | Project      | Home Page                                    |
